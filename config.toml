@@ -1,8 +1,8 @@
-baseURL = "http://www.mariacerase.com"
+baseURL = "localhost:1313"
 languageCode = "en-uk"
 title = "Maria Cerase"
 theme = "hugo-lodi-theme-master"
-googleAnalytics = "UA-8562021-6"
+googleAnalytics = "#######"
 
 [params]
     theme_color = "#2B826E"
@@ -39,7 +39,7 @@ googleAnalytics = "UA-8562021-6"
 	subtitle = "Top Jobs"
 
 [params.education]
-    enable = true
+    enable = false
     title = "Education"
     subtitle = "Diplomas and Degrees"
 
