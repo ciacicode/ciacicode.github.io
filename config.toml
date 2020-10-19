@@ -16,7 +16,7 @@ publishDir = "docs"
     dribbble = "ciacicode"
     linkedin = "https://www.linkedin.com/in/mariacerase"
     medium = "SuperMaryCherry"
-    github = "github"
+    github = "ciacicode"
 
 [params.nav]
     enable = true
