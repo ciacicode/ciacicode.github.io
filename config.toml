@@ -1,8 +1,9 @@
-baseURL = "localhost:1313"
+baseURL = "https://ciacicode.github.io"
 languageCode = "en-uk"
 title = "Maria Cerase"
 theme = "hugo-lodi-theme-master"
-googleAnalytics = "#######"
+googleAnalytics = "UA-8562021-6"
+publishDir = "docs"
 
 [params]
     theme_color = "#2B826E"
@@ -25,7 +26,7 @@ googleAnalytics = "#######"
     avatar = "avatar.jpg"
     subtitle = "Ciao,   I'm Maria"
     hero_right = ["Currently working as a Product Lead at MiQ, London, a programmatic advertising company based in London. I look after all our data ingestion APIs that live in an ecosystem with other Big Data processes. I enjoy working in a design driven development process and also apply usability principles to UI and back-end systems both. Incidentally, I am also a keen baker and cook, train and play in a South London Women 11-a-side football team, and enjoy doing a bit of Python scripting."]
-    resume = "MariaCeraseResume.pdf"
+    resume = "ResumeCollado.pdf"
 
 [params.process]
     enable = false
