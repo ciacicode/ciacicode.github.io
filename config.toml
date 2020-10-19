@@ -1,4 +1,4 @@
-baseURL = "https://ciacicode.github.io"
+baseURL = "https://ciacicode.github.io/"
 languageCode = "en-uk"
 title = "Maria Cerase"
 theme = "hugo-lodi-theme-master"
