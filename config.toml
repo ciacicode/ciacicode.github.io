@@ -45,7 +45,7 @@ publishDir = "docs"
     subtitle = "Diplomas and Degrees"
 
 [params.case_studies]
-    enable = false
+    enable = true
     title = "Case Studies"
     subtitle = "Selected Works"
 

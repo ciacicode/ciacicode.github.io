@@ -1,12 +1,12 @@
 ---
 weight: 3
-title: "TEDxADMU | Alexis Collado"
+title: "Fly UX | Alexis Collado"
 description: "I strategized, designed, and developed a simple landing page for TEDxADMU to set their application conversions to 66.8%."
-nav_heading: "TEDxADMU Case Study"
+nav_heading: "Fly UX"
 thumbnail: "tedx.jpg"
-case_short_title: "TEDxADMU Website"
-case_title: "TEDxADMU Website"
-case_subtitle: "Web Design"
+case_short_title: "FlyUX"
+case_title: "FlyUX"
+case_subtitle: "Mobile App Design"
 case_description: "The TEDxADMU website was a project for the Ateneo Junior Marketing Association. It's a project where I helped them reach a 66.8% conversion rate from scratch."
 case_feature_img: "featured-tedx.jpg"
 case_summary: "TEDxADMU is an independently organized community event that aims to spread ideas that inform and transform society. My role in the project was to design their website and make the application process as easy and seamless as possible."
