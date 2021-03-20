@@ -7,18 +7,18 @@ thumbnail: "flythumbnail.png"
 case_short_title: "Fly UX Mobile App"
 case_title: "Fly UX Mobile App"
 case_subtitle: "UX Design"
-case_description: "For my UX Diploma with Caledonian University and UX Design Institute I decided to research, design and prototype a mobile application for a fictional Airline: Fly UX."
-case_feature_img: "flyfeature.jpg"
+case_description: "For my UX Diploma with Caledonian University and UX Design Institute I researched, designed and prototyped a mobile application for a fictional Airline: Fly UX."
+case_feature_img: ""
 case_summary: "The project started with a series of interviews and surveys with users that travel quite often. I then proceeded to collate the research, analyse the data points and prepare user flows, interactions and finally wireframe and prototype the app."
 team: ["Maria Cerase"]
-roles: ["UX Researcher", UX Designer"]
+roles: ["UX Researcher", "UX Designer"]
 methods: ["User Interviews", "Usability Study", "Affinity Diagrams", "User Flow", "Wireframing", "Prototyping"]
 button_links:
     - link: "http://tedxadmu.ph"
       img: "eyeball.svg"
       text: "View Wirerames"
       text: "Download Wireframes"
-testimonial: "Placeholder for course feedback."
+testimonial: "Sketching is all about communication and I think you've done that really well. Really nice and clear. Your field labels are good and flow feels logical. I think this is a great foundation to your prototype. "
 testimonial_photo: "aoife.jpeg"
 testimonial_author: "Ahoife Shanahan"
 testimonial_subtitle: "UX Design Institute"

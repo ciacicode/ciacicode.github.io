@@ -1,8 +1,8 @@
-baseURL = "https://ciacicode.github.io/"
+baseURL = "localhost:1313"
 languageCode = "en-uk"
 title = "Maria Cerase"
 theme = "hugo-lodi-theme-master"
-googleAnalytics = "UA-8562021-6"
+googleAnalytics = "#######"
 publishDir = "docs"
 
 [params]
@@ -13,10 +13,10 @@ publishDir = "docs"
     logo = "logo.png"
     email = "maria.cerase@gmail.com"
     twitter = "SuperMaryCherry"
-    dribbble = "ciacicode"
+    dribbble = "mariacerase"
     linkedin = "https://www.linkedin.com/in/mariacerase"
     medium = "SuperMaryCherry"
-    github = "ciacicode"
+    github = "github"
 
 [params.nav]
     enable = true
@@ -25,11 +25,11 @@ publishDir = "docs"
     enable = true
     avatar = "avatar.jpg"
     subtitle = "Ciao,   I'm Maria"
-    hero_right = ["Currently working as a Product Lead at MiQ, a programmatic advertising company based in London. I look after all our data ingestion APIs that live in an ecosystem with other Big Data processes. I enjoy working in a design driven development process and also apply usability principles to UI and back-end systems both. Incidentally, I am also a keen baker and cook, train and play in a South London Women 11-a-side football team, and enjoy doing a bit of Python scripting."]
+    hero_right = ["I am a product expert with 10+ years experience in startups and big companies alike. I love designing applications with the user at the core of the process. If you want to know more about my work, check out the case studies or get in touch."]
     resume = "MariaCeraseResume.pdf"
 
 [params.process]
-    enable = false
+    enable = true
     title = "Process"
     subtitle = "Full Process Design"
 
@@ -45,7 +45,7 @@ publishDir = "docs"
     subtitle = "Diplomas and Degrees"
 
 [params.case_studies]
-    enable = false
+    enable = true
     title = "Case Studies"
     subtitle = "Selected Works"
 
