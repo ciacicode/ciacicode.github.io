@@ -1,8 +1,7 @@
 <section style="padding-top: 120px;" id="scroll-element" data-scroll-index="0">
     <div class="hero">
         <div class="hero-left">
-            <img src="{{ .Site.BaseURL }}img/{{ .Site.Params.Hero.Avatar }}" style="max-width: 80%; border-radius: 50%; ">
-            <h2 class="subtitle-hero">{{ .Site.Params.Hero.subtitle }}</h2>
+            <img src="{{ .Site.BaseURL }}img/{{ .Site.Params.Hero.Avatar }}" style="max-width: 80%; border-radius: 2%; ">
             <div class="icons">
                 {{ if isset .Site.Params "email" }}
                 <a href="mailto:{{ .Site.Params.Email }}" class="zoom">
@@ -140,6 +139,7 @@
             {{ end }}
         </div>
         <div class="hero-right">
+            <h2 class="subtitle-hero">{{ .Site.Params.Hero.subtitle }}</h2>
             {{ range $paragraph := .Site.Params.Hero.hero_right }}
                 <p>{{ $paragraph | markdownify }}</p>
             {{ end }}

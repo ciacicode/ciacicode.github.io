@@ -18,7 +18,7 @@ button_links:
       img: "eyeball.svg"
       text: "View Wirerames"
       text: "Download Wireframes"
-testimonial: "Insert quote from Ivor here"
+testimonial: "Insert quote here"
 testimonial_photo: ""
 testimonial_author: ""
 testimonial_subtitle: "Sr Solutions Engineer, MiQ"

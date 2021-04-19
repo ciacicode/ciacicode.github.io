@@ -35,7 +35,7 @@
         <h1 class="title" style="text-align: center;">Metis, Interview App</h1>
         <h2 class="subtitle" style="text-align: center;">UX Design</h2>
         <img src="img/flyfeature.jpg" alt="" class="center">
-        <p class="summary">The project started with a series of interviews and surveys with users that travel quite often. I then proceeded to collate the research, analyse the data points and prepare user flows, interactions and finally wireframe and prototype the app.</p>
+        <p class="summary">The project started with an assessment of how Solution Engineers were running interviews. They were using a spreadsheet, endlessly scrolling to find questions, copy pasting answers and questions as they went along: a time consuming and uncomfortable experience.</p>
         <div class="case-details">
             <div class="case-details-item">
                 <p><strong>Team</strong>
@@ -57,10 +57,6 @@
                 <p><strong>Methods</strong>
                     
                     <br>User Interviews
-                    
-                    <br>Usability Study
-                    
-                    <br>Affinity Diagrams
                     
                     <br>User Flow
                     
@@ -89,10 +85,10 @@
 </section>
         <section class="testimonial" style="background:#fdfcfc;">
     <div class="results-content">
-        <h1>"Placeholder for course feedback."</h1>
+        <h1>"Insert quote from Ivor here"</h1>
         <hr>
-        <img src="img/ivor.jpeg" alt="">
-        <h2>Ivor McLaren</h2>
+        <img src="img/" alt="">
+        <h2></h2>
         <h3>Sr Solutions Engineer, MiQ</h3>
     </div>
 </section>
@@ -100,32 +96,30 @@
         <section>
             <div class="content-case-study">
                 <h1 id="context">Context</h1>
-<p>As part of my UX Diploma, I had to work on a project from start to finish, to create a Mobile App for a fictional Airline called Fly UX.</p>
+<p>Solution Engineers work with clients to create bespoke apps and dashboards. One of their main jobs, is to gather client requirements efficiently and effectively, so that the solution built is as good as possible.</p>
 <h1 id="the-challenge">The Challenge</h1>
-<p>Airline apps are quite complex applications: users goodwill can easily diminish, as there are some very intensive tasks, where the user is expected to provide loads of data, in a very short amount of time, with limited screen space and guidance. I had created sign-up and cancellation flows before for other websites as a PM, but in this case I had to create all error flows as well on my own.</p>
+<p>The Solutions Engineer at the company were using a question bank, stored in a spreadsheet. To create a new interview and run it, they had to copy the spraedsheet and work on it as they were interviewing the customer. The questions were many, and nested under many level of possible branches, making the user flow quite complex to map.</p>
 <h1 id="research-and-analysis">Research and Analysis</h1>
-<p><img src="//localhost:1313/flyux/img/research.jpg" alt=""></p>
-<p>I have run usability studies and interviews, to get an understanding of context, goals and behaviours of flyers. With that information I designed user journey map and affinity diagram. From the start, price and time emerged as the most important factors of decision making:</p>
-<p><strong>Price confusion</strong>
-<!-- raw HTML omitted -->Switching between &lsquo;Price per person&rsquo; and &lsquo;Total price&rsquo; was often not clear, and created some serious disappointments in users that felt cheated or tricked by the way the information on price was displayed.</p>
-<p><strong>Direct flights vs Stops</strong>
-<!-- raw HTML omitted -->In some cases the users only found out very late that the flights they ended up selecting, included a layover stop that lasted several hours. This was due to the lack of UX/UI emphasis on such a key piece of information.</p>
-<p><strong>Passenger info Pain</strong>
-<!-- raw HTML omitted -->The most painful and time consuming task was the completion of passenger information. The apps that performed the best were those that made this step as simple as possible, with prefilled form fields and minimal inputs required.</p>
-<p><strong>User Journey</strong>
-<img src="//localhost:1313/flyux/img/journey.png" alt=""></p>
+<p>The first step was to interview Solutions Engineer to understand what they liked and disliked about the current solution and their goal. I asked about the context in which they run interviews, especially about device types, access to the internet, if they had assistance of a colleague. Top user pain points were:</p>
+<p><strong>Too many questions to scroll through</strong>
+<!-- raw HTML omitted -->The question bank is vast, and even though they were categorised, they were hard to scroll through in a spreadsheet.</p>
+<p><strong>Scoring was not simple</strong>
+<!-- raw HTML omitted -->Each answer had to be typed and then scored. Scores had to be entered in a cell, and it was hard to respect scoring guidances that were scattered in the spreadsheet.</p>
+<p><strong>Lack of a summary</strong>
+<!-- raw HTML omitted -->After the interview, the team reviews the answers and scores to brainstorm solutions. The spreadsheet does not allow to easily get a summary of the entire interview, making the brainstorm cumbersome.</p>
 <h1 id="design">Design</h1>
-<p>The first step was to create a clear user flow that would be comprehensive of happy path and unhappy path. The key challenge was not to focus on screens and controls, but the flow of the user, in, out and around their primary goal.</p>
-<p><img src="//localhost:1313/flyux/img/flyuxflow.png" alt=""></p>
-<p>After designing the flow, I concentrated on the key interactions, such as passenger info input and date selection. Finally I moved to wireframes and prototyping with Figma.</p>
+<p>The first step was to create a clear user flow that would be comprehensive of happy path and unhappy path. This was reviewd often by the major stakeholders to ensure my understanding of the process was correct.</p>
+<p>After designing the flow, I concentrated on the key interactions in a low fidelity prototype.</p>
+<p><img src="//localhost:1313/metis/img/sketchv2.jpg" alt=""></p>
 <h1 id="validate">Validate</h1>
-<p>I submitted the prototype to a group of users and gained some very valuable insights:</p>
-<p><strong>Insights 1</strong>
-<!-- raw HTML omitted -->The problem we wanted to solve was making sure people apply. This design delivers the best impact to solve that problem. Providing the context through photos and good copywriting was the only challenge left, since it&rsquo;s a landing page.</p>
-<p><strong>Insights 2</strong>
-<!-- raw HTML omitted -->The problem we wanted to solve was making sure people apply. This design delivers the best impact to solve that problem. Providing the context through photos and good copywriting was the only challenge left, since it&rsquo;s a landing page.</p>
+<p>From low fidelity, to high fidelity prototype, I tested the experience with volunteers solutions engineers and gathered some feedback. With this feedback I could improve.</p>
+<p><strong>Question dependency</strong>
+<!-- raw HTML omitted -->If an answer to question A was &lsquo;Yes&rsquo;, a subset of questions should pop up, for an answer of &lsquo;No&rsquo;, another set of questions should pop up. This interdepency made the job more complex, but also more interesting.</p>
+<p><strong>Asynchronous scoring</strong>
+<!-- raw HTML omitted -->Some Solutions Engineers feel confident scoring answers as they go, while others feel more comfortable scoring after the interview is over. It was important to give a space to review answers and score at any time.</p>
 <h1 id="finalise">Finalise</h1>
-<p>All the feedback went into the final prototype.</p>
+<p>After those iterations, I could produce a mid fidelity prototype in Axure that was then used as the basis of high fidelity UI designs.
+<img src="//localhost:1313/metis/img/axure1.png" alt=""></p>
 
             </div>
         </section>
@@ -149,18 +143,10 @@
             </div>
             
             <div class="case-study-item">
-                <a href="/studio/"><img src="localhost:1313img/flythumbnail.png" alt=""></a>
-                <h4>Datashop</h4>
-                <h5>Web App Design</h5>
-                <p>The TEDxADMU website was a project for the Ateneo Junior Marketing Association. It&#39;s a project where I helped them reach a 66.8% conversion rate from scratch.</p>
-                <a href="/studio/" class="read-more">Read Me</a>
-            </div>
-            
-            <div class="case-study-item">
                 <a href="/metis/"><img src="localhost:1313img/metisthumbnail.png" alt=""></a>
                 <h4>Interview App</h4>
                 <h5>UX Design</h5>
-                <p>One of my first projects in my current role as UX designer, was to create a web app to help Solutions Engineer run stakeholder interviews, score them, and reference back the results.</p>
+                <p>One of my most recent projects, was to create a web app to help Solutions Engineer run stakeholder interviews, score them, and reference back the results.</p>
                 <a href="/metis/" class="read-more">Read Me</a>
             </div>
             
