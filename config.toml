@@ -23,9 +23,9 @@ publishDir = "docs"
 
 [params.hero]
     enable = true
-    avatar = "avatar.jpg"
+    avatar = "avatar.png"
     subtitle = "Ciao,   I'm Maria"
-    hero_right = ["Currently working as a Product Lead at MiQ, a programmatic advertising company based in London. I look after all our data ingestion APIs that live in an ecosystem with other Big Data processes. I enjoy working in a design driven development process and also apply usability principles to UI and back-end systems both. Incidentally, I am also a keen baker and cook, train and play in a South London Women 11-a-side football team, and enjoy doing a bit of Python scripting."]
+    hero_right = ["I am a Product Lead at MiQ, a programmatic advertising company based in London. I lead the development and the adoption of Fiber, our Design System and write about product best practices. I also like to bake, play tennis, and do some Python scripting."]
     resume = "MariaCeraseResume.pdf"
 
 [params.process]
@@ -45,7 +45,7 @@ publishDir = "docs"
     subtitle = "Diplomas and Degrees"
 
 [params.case_studies]
-    enable = true
+    enable = false
     title = "Case Studies"
     subtitle = "Selected Works"
 

@@ -3,7 +3,7 @@
 # If a command fails then the deploy stops
 set -e
 
-printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
+printf "Deploying updates to mariacerase com"
 
 # Build the project.
 hugo -t hugo-lodi-theme-master # if using a theme, replace with `hugo -t <YOURTHEME>`
