@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body>
+        <div>
+            {{ if .Site.Params.nav.enable }}
+            {{ partial "nav.html" . }}
+            {{ end }}
+
+            <h1>Omg this is a 404!</h1>h1>
+
+            Seems like you ended up on page that does not exist. Go to the homepage to find your way back.
+        </div>
+
+        {{ partial "scripts.html" . }}
+
+    </body>
+</html>

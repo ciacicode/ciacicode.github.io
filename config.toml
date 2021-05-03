@@ -13,19 +13,19 @@ publishDir = "docs"
     logo = "logo.png"
     email = "maria.cerase@gmail.com"
     twitter = "SuperMaryCherry"
-    dribbble = "mariacerase"
+    dribbble = "ciacicode"
     linkedin = "https://www.linkedin.com/in/mariacerase"
     medium = "SuperMaryCherry"
-    github = "github"
+    github = "ciacicode"
 
 [params.nav]
     enable = true
 
 [params.hero]
     enable = true
-    avatar = "avatar.jpg"
+    avatar = "avatar.png"
     subtitle = "Ciao,   I'm Maria"
-    hero_right = ["I am a product expert with 10+ years experience in startups and big companies alike. I love designing applications with the user at the core of the process. If you want to know more about my work, check out the case studies or get in touch."]
+    hero_right = ["I am a Product Lead at MiQ, a programmatic advertising company based in London. I lead the development and the adoption of Fiber, our Design System and write about product best practices. I also like to bake, play tennis, and do some Python scripting."]
     resume = "MariaCeraseResume.pdf"
 
 [params.process]
