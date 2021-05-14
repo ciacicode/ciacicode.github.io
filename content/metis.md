@@ -13,14 +13,9 @@ case_summary: "The project started with an assessment of how Solution Engineers 
 team: ["Maria Cerase"]
 roles: ["UX Researcher", UX Designer"]
 methods: ["User Interviews", "User Flow", "Wireframing", "Prototyping"]
-button_links:
-    - link: "http://tedxadmu.ph"
-      img: "eyeball.svg"
-      text: "View Wirerames"
-      text: "Download Wireframes"
-testimonial: "Insert quote here"
-testimonial_photo: ""
-testimonial_author: ""
+testimonial: "These designs are excellent. You interpreted our requirements exactly as we'd described them e.g. the drag and drop functionality for individual questions, and added in some additional functionality which is incredibly helpful e.g. the keyword search bar during the interview section. This design would certainly lead to an intuitive, flexible tool which would react quickly to a live interview situation."
+testimonial_photo: "debbi.jpeg"
+testimonial_author: "Debbi Rosenthal"
 testimonial_subtitle: "Sr Solutions Engineer, MiQ"
 date: 2020-11-15T03:29:08-07:00
 draft: false
@@ -71,5 +66,5 @@ From low fidelity, to high fidelity prototype, I tested the experience with volu
 
 # Finalise
 
-After those iterations, I could produce a mid fidelity prototype in Axure that was then used as the basis of high fidelity UI designs.
+After those iterations, I produces a mid fidelity prototype in Axure that was then used as the basis of high fidelity UI designs.
 ![](//localhost:1313/metis/img/axure1.png)

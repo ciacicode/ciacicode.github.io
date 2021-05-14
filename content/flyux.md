@@ -14,20 +14,19 @@ team: ["Maria Cerase"]
 roles: ["UX Researcher", "UX Designer"]
 methods: ["User Interviews", "Usability Study", "Affinity Diagrams", "User Flow", "Wireframing", "Prototyping"]
 button_links:
-    - link: "http://tedxadmu.ph"
+    - link: "https://drive.google.com/drive/folders/1kFKfzkZwASHpwUHZLfNDmEM2CgD90fCj"
       img: "eyeball.svg"
-      text: "View Wirerames"
-      text: "Download Wireframes"
+      text: "Download Artefacts"
+      text: "Download Artefacts"
 testimonial: "Sketching is all about communication and I think you've done that really well. Really nice and clear. Your field labels are good and flow feels logical. I think this is a great foundation to your prototype. "
 testimonial_photo: "aoife.jpeg"
 testimonial_author: "Ahoife Shanahan"
 testimonial_subtitle: "UX Design Institute"
-date: 2020-03-15T03:29:08-07:00
+date: 2021-05-14T03:29:08-07:00
 draft: false
 ---
 
 # Context
-
 
 As part of my UX Diploma, I had to work on a project from start to finish, to create a Mobile App for a fictional Airline called Fly UX. 
 
@@ -65,14 +64,14 @@ After designing the flow, I concentrated on the key interactions, such as passen
 
 # Validate
 
-I submitted the prototype to a group of users and gained some very valuable insights:
+I tested the prototype with a set of users and I gained these key insights that led me to make some changes.
 
-**Insights 1**
-<br>The problem we wanted to solve was making sure people apply. This design delivers the best impact to solve that problem. Providing the context through photos and good copywriting was the only challenge left, since it's a landing page.
+**Navigation was unclear**
+<br>The user did not know how to go back to the previous screens. So I had to make the navigation controls more evident.
 
-**Insights 2**
-<br>The problem we wanted to solve was making sure people apply. This design delivers the best impact to solve that problem. Providing the context through photos and good copywriting was the only challenge left, since it's a landing page.
+**Over eager validation**
+<br>I was providing too much inline validation, meaning that the prototype was giving too much feedback, too early.
 
 # Finalise
 
-All the feedback went into the final prototype.
+All the feedback went into the final prototype where I tried to simplify the flow and make it even more obvious. It is not ground breaking, but that's the good thing about it. It's a utility app, you want it simple and predictable.
