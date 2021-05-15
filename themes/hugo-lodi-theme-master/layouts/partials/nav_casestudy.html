@@ -4,6 +4,9 @@
     </a>
     <h5>{{ .Params.nav_heading }}</h5>
     <div class="sub-navigation">
-        <a href="{{ .Site.BaseURL }}" class="main-navigation-link" data-scroll-goto="2">Case Studies</a>
+
+        {{ if .Site.Params.case_studies.enable }}
+        <a href="#" class="main-navigation-link" data-scroll-goto="4">{{ .Site.Params.case_studies.title }}</a>
+        {{ end }}
     </div>
 </nav>

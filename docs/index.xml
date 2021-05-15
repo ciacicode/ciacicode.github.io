@@ -2,9 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Maria Cerase</title>
-    <link>https://ciacicode.github.io/</link>
+    <link>localhost:1313/</link>
     <description>Recent content on Maria Cerase</description>
     <generator>Hugo -- gohugo.io</generator>
+<<<<<<< HEAD
+    <language>en-uk</language><atom:link href="localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fly UX</title>
+      <link>localhost:1313/flyux/</link>
+      <pubDate>Sun, 15 Mar 2020 03:29:08 -0700</pubDate>
+      
+      <guid>localhost:1313/flyux/</guid>
+      <description>Context As part of my UX Diploma, I had to work on a project from start to finish, to create a Mobile App for a fictional Airline called Fly UX.
+The Challenge Airline apps are quite complex applications: users goodwill can easily diminish, as there are some very intensive tasks, where the user is expected to provide loads of data, in a very short amount of time, with limited screen space and guidance.</description>
+    </item>
+    
+    <item>
+      <title>Metis App</title>
+      <link>localhost:1313/metis/</link>
+      <pubDate>Sun, 15 Nov 2020 03:29:08 -0700</pubDate>
+      
+      <guid>localhost:1313/metis/</guid>
+      <description>Context Solution Engineers work with clients to create bespoke apps and dashboards. One of their main jobs, is to gather client requirements efficiently and effectively, so that the solution built is as good as possible.
+The Challenge The Solutions Engineer at the company were using a question bank, stored in a spreadsheet. To create a new interview and run it, they had to copy the spraedsheet and work on it as they were interviewing the customer.</description>
+    </item>
+    
+=======
     <language>en-uk</language><atom:link href="https://ciacicode.github.io/index.xml" rel="self" type="application/rss+xml" />
+>>>>>>> master
   </channel>
 </rss>

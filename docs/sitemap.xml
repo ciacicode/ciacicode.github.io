@@ -3,15 +3,29 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+<<<<<<< HEAD
+    <loc>localhost:1313/flyux/</loc>
+    <lastmod>2020-03-15T03:29:08-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/metis/</loc>
+    <lastmod>2020-11-15T03:29:08-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/</loc>
+=======
     <loc>https://ciacicode.github.io/categories/</loc>
+>>>>>>> master
   </url>
   
   <url>
-    <loc>https://ciacicode.github.io/</loc>
-  </url>
-  
-  <url>
-    <loc>https://ciacicode.github.io/tags/</loc>
+    <loc>localhost:1313/tags/</loc>
   </url>
   
 </urlset>
