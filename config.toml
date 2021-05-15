@@ -1,8 +1,8 @@
-baseURL = "localhost:1313"
+baseURL = "https://ciacicode.github.io/"
 languageCode = "en-uk"
 title = "Maria Cerase"
 theme = "hugo-lodi-theme-master"
-googleAnalytics = "#######"
+googleAnalytics = "UA-8562021-6"
 publishDir = "docs"
 
 [params]
@@ -29,15 +29,15 @@ publishDir = "docs"
     resume = "MariaCeraseResume.pdf"
 
 [params.process]
-    enable = true
+    enable = false
     title = "Process"
-    subtitle = "Approach To Product Design"
+    subtitle = "Approach to Product Design"
 
 
 [params.experience]
-	enable = true
-	title = "Experience"
-	subtitle = "Top Jobs"
+    enable = true
+    title = "Experience"
+    subtitle = "Top Jobs"
 
 [params.education]
     enable = false
