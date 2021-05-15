@@ -77,6 +77,9 @@ I tested the prototype with a set of users and I gained these key insights that 
 All the feedback went into the final prototype where I tried to simplify the flow and make it even more obvious. It is not ground breaking, but that's the good thing about it. It's a utility app, you want it simple and predictable.
 
 ![](//localhost:1313/flyux/img/1.png)
+
 ![](//localhost:1313/flyux/img/2.png)
+
 ![](//localhost:1313/flyux/img/3.png)
+
 ![](//localhost:1313/flyux/img/4.png)
