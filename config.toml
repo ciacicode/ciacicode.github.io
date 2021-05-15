@@ -25,7 +25,7 @@ publishDir = "docs"
     enable = true
     avatar = "avatar.png"
     subtitle = "Ciao,   I'm Maria"
-    hero_right = ["I am a Product Design expert with 10+ years experience working across B2B and B2C products and platforms. Currently, I work as a Product Lead at MiQ focusing on Design System adoption and improving the usability of internal applications. I also like to bake, play tennis, and do some Python scripting."]
+    hero_right = ["I am a Product Design professional with 10+ years experience working across B2B and B2C products and platforms. Currently, I work as a Product Lead at MiQ focusing on Design System adoption and improving the usability of internal applications. I also like to bake, play tennis, and do some Python scripting."]
     resume = "MariaCeraseResume.pdf"
 
 [params.process]

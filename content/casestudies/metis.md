@@ -1,5 +1,5 @@
 ---
-weight: 2
+weight: 3
 title: "Metis App"
 description: "Client Interview App"
 nav_heading: "Interview App"
@@ -18,7 +18,7 @@ testimonial_photo: "debbi.jpeg"
 testimonial_author: "Debbi Rosenthal"
 testimonial_subtitle: "Sr Solutions Engineer, MiQ"
 date: 2020-11-15T03:29:08-07:00
-draft: false
+draft: true
 ---
 
 # Context

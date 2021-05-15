@@ -1,5 +1,5 @@
 ---
-weight: 3
+weight: 4
 title: "Privacy Pathway"
 description: "59% reduction of privacy related support tickets at Google"
 nav_heading: "Global Privacy Troubleshooter"
@@ -15,7 +15,7 @@ roles: ["UX Researcher", "Project Lead"]
 methods: ["User Interviews", "Usability Study", "Card Sorting", "User Flow", "Prototyping"]
 testimonial: "In 2013, this was already a very sensitive subject to work on, especially for such a global company."
 date: 2013-03-15T03:29:08-07:00
-draft: false
+draft: true
 ---
 
 # Context
