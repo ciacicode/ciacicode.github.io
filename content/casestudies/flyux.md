@@ -37,7 +37,7 @@ Airline apps are quite complex applications: users goodwill can easily diminish,
 
 # Research and Analysis
 
-![](//localhost:1313/flyux/img/research.jpg)
+![](//localhost:1313/casestudies/flyux/img/research.jpg)
 
 I have run usability studies and interviews, to get an understanding of context, goals and behaviours of flyers. With that information I designed user journey map and affinity diagram. From the start, price and time emerged as the most important factors of decision making:
 
@@ -51,14 +51,14 @@ I have run usability studies and interviews, to get an understanding of context,
 <br>The most painful and time consuming task was the completion of passenger information. The apps that performed the best were those that made this step as simple as possible, with prefilled form fields and minimal inputs required.
 
 **User Journey**
-![](//localhost:1313/flyux/img/journey.png)
+![](//localhost:1313/casestudies/flyux/img/journey.png)
 
             
 # Design
 
 The first step was to create a clear user flow that would be comprehensive of happy path and unhappy path. The key challenge was not to focus on screens and controls, but the flow of the user, in, out and around their primary goal. 
 
-![](//localhost:1313/flyux/img/flyuxflow.png)
+![](//localhost:1313/casestudies/flyux/img/flyuxflow.png)
 
 After designing the flow, I concentrated on the key interactions, such as passenger info input and date selection. Finally I moved to wireframes and prototyping with Figma. 
 
@@ -75,11 +75,3 @@ I tested the prototype with a set of users and I gained these key insights that 
 # Finalise
 
 All the feedback went into the final prototype where I tried to simplify the flow and make it even more obvious. It is not ground breaking, but that's the good thing about it. It's a utility app, you want it simple and predictable.
-
-![](//localhost:1313/flyux/img/1.png)
-
-![](//localhost:1313/flyux/img/2.png)
-
-![](//localhost:1313/flyux/img/3.png)
-
-![](//localhost:1313/flyux/img/4.png)
