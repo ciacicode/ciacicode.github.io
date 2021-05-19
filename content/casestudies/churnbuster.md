@@ -1,5 +1,5 @@
 ---
-weight: 2
+weight: 3
 title: "Churn Buster"
 description: "Research and design of a cancellation flow."
 nav_heading: "HMA! Cancellation"
@@ -7,7 +7,7 @@ thumbnail: "hmathumbnail.png"
 case_short_title: "Cancellation Flow"
 case_title: "Cancellation Flow"
 case_subtitle: "25% churn reduction"
-case_description: "For my UX Diploma with Caledonian University and UX Design Institute I researched, designed and prototyped a mobile application for a fictional Airline: Fly UX."
+case_description: "A small percentage of users were cancelling their VPN subscription, but we did not know why. We had to get visibility of the motivations behind user churn, fast."
 case_feature_img: ""
 case_summary: "A small percentage of users were cancelling their VPN subscription, but we did not know why. We had to get visibility of the motivations behind user churn, fast."
 team: ["Maria Cerase"]

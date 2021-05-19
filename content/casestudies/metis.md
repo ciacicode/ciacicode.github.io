@@ -1,5 +1,5 @@
 ---
-weight: 3
+weight: 2
 title: "Metis App"
 description: "Client Interview App"
 nav_heading: "Interview App"
@@ -14,11 +14,11 @@ team: ["Maria Cerase"]
 roles: ["UX Researcher", UX Designer"]
 methods: ["User Interviews", "User Flow", "Wireframing", "Prototyping"]
 testimonial: "These designs are excellent. You interpreted our requirements exactly as we'd described them e.g. the drag and drop functionality for individual questions, and added in some additional functionality which is incredibly helpful e.g. the keyword search bar during the interview section. This design would certainly lead to an intuitive, flexible tool which would react quickly to a live interview situation."
-testimonial_photo: "debbi.jpeg"
+testimonial_photo: 
 testimonial_author: "Debbi Rosenthal"
 testimonial_subtitle: "Sr Solutions Engineer, MiQ"
 date: 2020-11-15T03:29:08-07:00
-draft: true
+draft: false
 ---
 
 # Context
@@ -50,7 +50,7 @@ The first step was to create a clear user flow that would be comprehensive of ha
 
 After designing the flow, I concentrated on the key interactions in a low fidelity prototype.
 
-![](//localhost:1313/metis/img/sketchv2.jpg)
+![](/casestudies/metis/img/sketchv2.jpg)
 
 
 
@@ -67,4 +67,4 @@ From low fidelity, to high fidelity prototype, I tested the experience with volu
 # Finalise
 
 After those iterations, I produces a mid fidelity prototype in Axure that was then used as the basis of high fidelity UI designs.
-![](//localhost:1313/metis/img/axure1.png)
+![](/casestudies/metis/img/axure1.png)
