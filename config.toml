@@ -18,6 +18,11 @@ publishDir = "docs"
     medium = "SuperMaryCherry"
     github = "ciacicode"
 
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
 [params.nav]
     enable = true
 
