@@ -32,7 +32,7 @@
             {{ $baseUrl := .Site.BaseURL }}
             {{ range $element := .Params.button_links }}
             <div class="link-div">
-                <a href="{{ $element.link }}" target="blank" class="case-detail-link" onclick="ga('send', {hitType: 'event',eventCategory: 'CTA',eventAction: 'download {{ .Params.case_title }}'});">
+                <a href="{{ $element.link }}" target="blank" class="case-detail-link" onclick="ga('send', {hitType: 'event',eventCategory: 'CTA',eventAction: 'download {{ .Params.case_title }}', eventLabel:'download {{ .Params.case_title }}'});">
                     {{ if eq $element.img "download.svg" }}
                     <img style="top:1.8px;" src="{{ $baseUrl }}svg/{{ $element.img }}">
                     {{ else }}
