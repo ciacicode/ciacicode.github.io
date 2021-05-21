@@ -3,50 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/casestudies/flyux/</loc>
+    <loc>https://ciacicode.github.io/casestudies/flyux/</loc>
     <lastmod>2021-05-14T03:29:08-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/casestudies/metis/</loc>
+    <loc>https://ciacicode.github.io/casestudies/metis/</loc>
     <lastmod>2020-11-15T03:29:08-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/casestudies/churnbuster/</loc>
+    <loc>https://ciacicode.github.io/casestudies/churnbuster/</loc>
     <lastmod>2014-10-14T03:29:08-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/casestudies/</loc>
+    <loc>https://ciacicode.github.io/casestudies/ppathway/</loc>
+    <lastmod>2013-03-15T03:29:08-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ciacicode.github.io/casestudies/</loc>
     <lastmod>2021-05-14T03:29:08-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>https://ciacicode.github.io/</loc>
     <lastmod>2021-05-14T03:29:08-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://ciacicode.github.io/categories/</loc>
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://ciacicode.github.io/tags/</loc>
   </url>
   
 </urlset>

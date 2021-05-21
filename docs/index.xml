@@ -2,39 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Maria Cerase</title>
-    <link>/</link>
+    <link>https://ciacicode.github.io/</link>
     <description>Recent content on Maria Cerase</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Fri, 14 May 2021 03:29:08 -0700</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 May 2021 03:29:08 -0700</lastBuildDate><atom:link href="https://ciacicode.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fly UX</title>
-      <link>/casestudies/flyux/</link>
+      <link>https://ciacicode.github.io/casestudies/flyux/</link>
       <pubDate>Fri, 14 May 2021 03:29:08 -0700</pubDate>
       
-      <guid>/casestudies/flyux/</guid>
+      <guid>https://ciacicode.github.io/casestudies/flyux/</guid>
       <description>Context As part of my UX Diploma, I had to work on a project from start to finish, to create a Mobile App for a fictional Airline called Fly UX.
 The Challenge Airline apps are quite complex applications: users goodwill can easily diminish, as there are some very intensive tasks, where the user is expected to provide loads of data, in a very short amount of time, with limited screen space and guidance.</description>
     </item>
     
     <item>
       <title>Metis App</title>
-      <link>/casestudies/metis/</link>
+      <link>https://ciacicode.github.io/casestudies/metis/</link>
       <pubDate>Sun, 15 Nov 2020 03:29:08 -0700</pubDate>
       
-      <guid>/casestudies/metis/</guid>
+      <guid>https://ciacicode.github.io/casestudies/metis/</guid>
       <description>Context Solution Engineers work with clients to create bespoke apps and dashboards. One of their main jobs, is to gather client requirements efficiently and effectively, so that the solution built is as good as possible.
 The Challenge The Solutions Engineer at the company were using a question bank, stored in a spreadsheet. To create a new interview and run it, they had to copy the spraedsheet and work on it as they were interviewing the customer.</description>
     </item>
     
     <item>
       <title>Churn Buster</title>
-      <link>/casestudies/churnbuster/</link>
+      <link>https://ciacicode.github.io/casestudies/churnbuster/</link>
       <pubDate>Tue, 14 Oct 2014 03:29:08 -0700</pubDate>
       
-      <guid>/casestudies/churnbuster/</guid>
+      <guid>https://ciacicode.github.io/casestudies/churnbuster/</guid>
       <description>Context Churn at HMA! at the time, was around 12 - 15%, but users unsubscribing were not asked to give a reason. This was putting me in the dark, as to what to improve.
 The Challenge We wanted to learn what could be improved, we also wanted to highlight all the benefits that may be lost if they proceeded with the cancellation of the subscription. Achieving all this, without exasperating the user was the real challenge.</description>
+    </item>
+    
+    <item>
+      <title>Privacy Pathway</title>
+      <link>https://ciacicode.github.io/casestudies/ppathway/</link>
+      <pubDate>Fri, 15 Mar 2013 03:29:08 -0700</pubDate>
+      
+      <guid>https://ciacicode.github.io/casestudies/ppathway/</guid>
+      <description>Context A vast number of incoming customer support requests for the Web Search support team, were connected to privacy/legal questions. Routing these requests to legal teams, required a lot of time, and often lead to standardised answers to users, whether instead simple answers could be found on existing support resources.
+The Challenge As a support team, we only had control of support centers, and the Privacy Help Center at the time, was in its infancy.</description>
     </item>
     
   </channel>
