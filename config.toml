@@ -45,7 +45,7 @@ publishDir = "docs"
     subtitle = "Top Jobs"
 
 [params.education]
-    enable = false
+    enable = true
     title = "Education"
     subtitle = "Diplomas and Degrees"
 
