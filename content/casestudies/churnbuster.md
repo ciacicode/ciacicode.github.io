@@ -10,7 +10,7 @@ case_subtitle: "25% churn reduction"
 case_description: "A small percentage of users were cancelling their VPN subscription, but we did not know why. We had to get visibility of the motivations behind user churn, fast."
 case_feature_img: ""
 case_summary: "A small percentage of users were cancelling their VPN subscription, but we did not know why. We had to get visibility of the motivations behind user churn, fast."
-team: ["Maria Cerase"]
+team: ["Maria Cerase", "Privax Design and Product team"]
 roles: ["Product Manager"]
 methods: ["Google Analytics", "User Flow", "Wireframing"]
 testimonial: "Speed was of the essence."
@@ -23,7 +23,7 @@ draft: false
 
 # Context
 
-Churn at HMA! at the time, was around 12 - 15%, but users unsubscribing were not asked to give a reason. This was putting me in the dark, as to what to improve.
+Churn at HMA! at the time, was around 12 - 15%, but users unsubscribing were not asked to give a reason. This was putting us in the dark, as to what to improve.
 
 # The Challenge
 
