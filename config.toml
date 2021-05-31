@@ -34,9 +34,9 @@ publishDir = "docs"
     resume = "MariaCeraseResume.pdf"
 
 [params.process]
-    enable = false
+    enable = true
     title = "Process"
-    subtitle = "Approach to Product Design"
+    subtitle = "My approach to Product Design"
 
 
 [params.experience]

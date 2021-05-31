@@ -8,7 +8,7 @@
 body {
   font-size: 16px;
   font-family: Roboto;
-  line-height: 1.8em;
+  line-height: 133%;
   margin: 0;
   padding: 0;
 }
@@ -96,11 +96,40 @@ footer {
   color: #777777;
 }
 
+
+
 @media all and (max-width: 400px) {
   .main-navigation h5 {
     top: 7px;
     font-size: 12px;
   }
+
+  .job h3 {
+    font-size: 26px;
+  }
+
+  .job h4 {
+    font-size: 21px;
+  }
+}
+
+.job h4 {
+  font-size: 21px;
+  font-weight: 400;
+  margin: 0;
+  line-height: 133%;
+  color: #2B826E;
+  padding: 0px 0px 0px 55px;
+
+}
+.job h3 {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0;
+  line-height: 133%;
+  color: #2B826E;
+  padding: 0px 0px 0px 21px;
+
 }
 
 .main-navigation-link {
@@ -196,7 +225,7 @@ section {
 
 .hi {
   font-size: 42px;
-  line-height: 0.4em;
+  line-height: 50%;
 }
 
 .subtitle-hero{
@@ -204,6 +233,7 @@ section {
   color: #2B826E;
   font-weight: 500;
   font-family: 'Roboto';
+  line-height: 120%;
 }
 
 .subtitle {
@@ -226,7 +256,7 @@ section {
   color: #777777;
   letter-spacing: 0;
   /* line-height: 25px; */
-  line-height: 1.8em;
+  line-height: 150%;
 }
 
 .hero-right em {
@@ -273,7 +303,7 @@ section {
   font-size: 44px;
   color: #000000;
   letter-spacing: 0;
-  line-height: 0.4em;
+  line-height: 50%;
 }
 
 .process-item {
@@ -315,7 +345,7 @@ section {
   font-size: 16px;
   color: #777777;
   letter-spacing: 0;
-  line-height: 1.8em;
+  line-height: 133%;
 }
 
 .process-item h3 {
@@ -348,15 +378,15 @@ section {
   font-size: 26px;
   font-weight: 300;
   margin: 0;
-  line-height: 2.4em;
+  line-height: 133%;
 }
 
 .case-study-item h5 {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
   color: #5A5A5A;
   margin: 0;
-  line-height: 0.3em;
+  line-height: 133%;
   text-transform: uppercase;
 }
 
@@ -364,8 +394,19 @@ section {
   font-size: 16px;
   color: #777777;
   letter-spacing: 0;
-  line-height: 1.8em;
+  line-height: 133%;
 }
+
+.read-all {
+  display: inline-block;
+  width: 30%;
+  padding: 18px 0px;
+  margin-left: 30%;
+  text-align: center;
+  color: #2B826E;
+  font-weight: 500;
+}
+
 
 .read-more {
   display: inline-block;
@@ -403,13 +444,13 @@ section {
 
 .results-content h1 {
   font-size: 24px;
-  line-height: 1.6em;
+  line-height: 120%;
   font-weight: 300;
 }
 
 .results-content h2 {
   font-size: 25px;
-  line-height: 1em;
+  line-height: 80%;
   font-weight: 300;
   margin: 0;
   margin-top: 0.3em;
@@ -432,7 +473,7 @@ section {
 }
 
 .main-case-study .title {
-  line-height: 1em;
+  line-height: 80%;
   margin-top: 20px;
 }
 
@@ -530,7 +571,7 @@ section {
   font-size: 19px;
   color: #676767;
   letter-spacing: 0;
-  line-height: 30px;
+  line-height: 133%;
 }
 
 .content-case-study img {
@@ -570,7 +611,7 @@ section {
 }
 
 .case-details-item p {
-  line-height: 1.8em;
+  line-height: 133%;
   font-size: 16px;
 }
 
@@ -632,24 +673,7 @@ section {
   border-bottom: 3px solid #574CDD;
 }
 
-.job h4 {
-  font-size: 18px;
-  font-weight: 400;
-  margin: 0;
-  line-height: 2.4em;
-  color: #2B826E;
-  padding: 0px 0px 0px 55px;
 
-}
-.job h3 {
-  font-size: 24px;
-  font-weight: 600;
-  margin: 0;
-  line-height: 2.2em;
-  color: #2B826E;
-  padding: 0px 0px 0px 21px;
-
-}
 
 .job p {
   padding: 0px 0px 0px 55px;}
