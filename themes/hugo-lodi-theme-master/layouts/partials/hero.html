@@ -4,7 +4,7 @@
             <img src="{{ .Site.BaseURL }}img/{{ .Site.Params.Hero.Avatar }}" style="max-width: 80%; border-radius: 50%; ">
             <div class="icons">
                 {{ if isset .Site.Params "email" }}
-                <a href="mailto:{{ .Site.Params.Email }}" class="zoom">
+                <a href="mailto:{{ .Site.Params.Email }}" class="zoom" onclick="ga('send', {hitType: 'event',eventCategory: 'CTA',eventAction: 'outboundLink', eventLabel:'checkEmail'});">
                     <svg width="16px" height="14px" viewBox="0 0 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
                         <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
                         <title>Email</title>
@@ -42,7 +42,7 @@
                 </a>
                 {{ end }}
                 {{ if isset .Site.Params "twitter" }}
-                <a href="https://twitter.com/{{ .Site.Params.Twitter }}" target="blank" class="zoom">
+                <a href="https://twitter.com/{{ .Site.Params.Twitter }}" target="blank" class="zoom" onclick="ga('send', {hitType: 'event',eventCategory: 'CTA',eventAction: 'outboundLink', eventLabel:'checkTwitter'});">
                     <svg width="16px" height="14px" viewBox="0 0 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
                         <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
                         <title>Twitter</title>
@@ -61,7 +61,7 @@
                 </a>
                 {{ end }}
                 {{ if isset .Site.Params "dribbble" }}
-                <a href="https://dribbble.com/{{ .Site.Params.Dribbble }}" target="blank" class="zoom">
+                <a href="https://dribbble.com/{{ .Site.Params.Dribbble }}" target="blank" class="zoom" onclick="ga('send', {hitType: 'event',eventCategory: 'CTA',eventAction: 'outboundLink', eventLabel:'checkDribbble'});">
                     <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
                         <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
                         <title>Dribble</title>
@@ -80,7 +80,7 @@
                 </a>
                 {{ end }}
                 {{ if isset .Site.Params "linkedin" }}
-                <a href="{{ .Site.Params.LinkedIn }}" target="blank" class="zoom">
+                <a href="{{ .Site.Params.LinkedIn }}" target="blank" class="zoom" onclick="ga('send', {hitType: 'event',eventCategory: 'CTA',eventAction: 'outboundLink', eventLabel:'checkLinkedIn'});">
                     <svg width="17px" height="16px" viewBox="0 0 17 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
                         <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
                         <title>Linkedin</title>
@@ -105,7 +105,7 @@
                 </a>
                 {{ end }}
                 {{ if isset .Site.Params "github" }}
-                <a href="https://github.com/{{ .Site.Params.Github }}" target="blank" class="zoom">
+                <a href="https://github.com/{{ .Site.Params.Github }}" target="blank" class="zoom" onclick="ga('send', {hitType: 'event',eventCategory: 'CTA',eventAction: 'outboundLink', eventLabel:'checkGithub'});">
                   <svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <title>Github</title>
                       <g id="Portfolio" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
