@@ -1,0 +1,15 @@
+title: Services
+subtitle: Get a partner to help you drive results
+packages:
+  serviceItem:
+    - title: Gold
+      description: Big projects
+      thumbnail: 'img/logo.png'
+
+    - title: Silver
+      description: Medium projects
+      thumbnail: 'img/logo.png'
+
+    - title: Bronze
+      description: Small projecs
+      thumbnail: 'img/logo.png'
