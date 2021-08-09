@@ -6,7 +6,7 @@ set -e
 printf "Deploying updates to mariacerase com"
 
 # Build the project.
-hugo --config config-prod.toml -D -t hugo-lodi-theme-master # if using a theme, replace with `hugo -t <YOURTHEME>`
+hugo --config config.toml -D -t hugo-lodi-theme-master # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Docs folder
 cd docs
