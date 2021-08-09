@@ -6,10 +6,10 @@ nav_heading: "Rebranding"
 thumbnail: "safethumbnail.webp"
 case_short_title: "Rebranding"
 case_title: "Rebranding SAFE Foundation"
-case_subtitle: "Regranding"
-case_description: "I have worked to create an updated brand identity, colour and typography for a South London charity: SAFE Foundation"
+case_subtitle: "Rebranding"
+case_description: "I have carried out a full digital rebranding and website development for a Football charity based in South London: SAFE Foundation"
 case_feature_img: ""
-case_summary: "SAFE Foundation uses the power of football to educate young children to live healthy lives. They had lost access to their website and assets, so I helped with rebranding and development of their website."
+case_summary: "SAFE Foundation uses the power of football to educate young children to live healthy lives. The team had lost access to their website and assets, so I helped with rebranding and development of their new online presence."
 team: ["Maria Cerase"]
 roles: ["Designer", "Web Developer"]
 methods: ["Graphic Design", "Web Design"]
@@ -18,11 +18,11 @@ button_links:
       img: "eyeball.svg"
       text: "Download Brand Guidelines"
       text: "Download Brand Guidelines"
-testimonial: "Placeholder for John"
+testimonial: "Maria helped us build our website and she was amazing to work with. She was able to clearly elicit our requirements, set some clear expectations with us and was really patient in guiding us through the project. Her ability to simplify complex information was amazing and her ability to use fantastic visual tools to walk us through the process was really good in helping us execute the project and go live successfully. I'd recommend Maria to anyone who wishes to work with a really knowledgeable and experienced web developer"
 testimonial_photo: "john.webp"
 testimonial_author: "John Titilawo"
 testimonial_subtitle: "CEO, Executive Director, SAFE Foundation"
-date: 2020-11-15T03:29:08-07:00
+date: 2021-08-08T22:29:08-07:00
 draft: false
 ---
 
@@ -54,7 +54,7 @@ I worked on the logo first. I started using the original logo, but then evolved 
 
 The primary colours were picked after looking at SAFE Foundation official sportswear.
 
-![](/casestudies/safefoundation/Main-Colors.webp)
+![](/casestudies/safefoundation/MainColors.webp)
 
 # Typography
 
