@@ -2,39 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Maria Cerase</title>
-    <link>http://www.mariacerase.com/</link>
+    <link>/</link>
     <description>Recent content on Maria Cerase</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Fri, 14 May 2021 03:29:08 -0700</lastBuildDate><atom:link href="http://www.mariacerase.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Aug 2021 22:29:08 -0700</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fly UX</title>
-      <link>http://www.mariacerase.com/casestudies/flyux/</link>
+      <link>/casestudies/flyux/</link>
       <pubDate>Fri, 14 May 2021 03:29:08 -0700</pubDate>
       
-      <guid>http://www.mariacerase.com/casestudies/flyux/</guid>
+      <guid>/casestudies/flyux/</guid>
       <description>Context As part of my UX Diploma, I had to work on a project from start to finish, to create a Mobile App for a fictional Airline called Fly UX.
 The Challenge Airline apps are quite complex applications. Users&#39; goodwill can easily diminish, as there are some very intensive tasks, where the user is expected to provide loads of data, in a very short amount of time. All this, with limited screen space and guidance.</description>
     </item>
     
     <item>
-      <title>Metis App</title>
-      <link>http://www.mariacerase.com/casestudies/metis/</link>
-      <pubDate>Sun, 15 Nov 2020 03:29:08 -0700</pubDate>
+      <title>Safe Foundation Rebranding</title>
+      <link>/casestudies/safefoundation/</link>
+      <pubDate>Sun, 08 Aug 2021 22:29:08 -0700</pubDate>
       
-      <guid>http://www.mariacerase.com/casestudies/metis/</guid>
-      <description>Context Solution Engineers work with clients to create bespoke apps and dashboards. One of their main jobs, is to gather client requirements efficiently and effectively, so that the solution built is as good as possible.
-The Challenge The Solutions Engineer at the company were using a question bank, stored in a spreadsheet. To create a new interview and run it, they had to copy the spraedsheet and work on it as they were interviewing the customer.</description>
+      <guid>/casestudies/safefoundation/</guid>
+      <description>Context The SAFE Foundation is a charity operating in South London, using the power of football to each young children to live healthily. It organises several sport programmes for different ages, focusing on good sport ethics.
+The Challenge The charity had lost access to the assets of their website, so needed a new website and a new brand. While I had contributed to rebrandings, I was never in charge of one.</description>
     </item>
     
     <item>
       <title>Churn Buster</title>
-      <link>http://www.mariacerase.com/casestudies/churnbuster/</link>
+      <link>/casestudies/churnbuster/</link>
       <pubDate>Tue, 14 Oct 2014 03:29:08 -0700</pubDate>
       
-      <guid>http://www.mariacerase.com/casestudies/churnbuster/</guid>
+      <guid>/casestudies/churnbuster/</guid>
       <description>Context Churn at HMA! at the time, was around 12 - 15%, but users unsubscribing were not asked to give a reason. This was putting us in the dark, as to what to improve.
 The Challenge We wanted to learn what could be improved, we also wanted to highlight all the benefits that may be lost if they proceeded with the cancellation of the subscription. Achieving all this, without exasperating the user was the real challenge.</description>
+    </item>
+    
+    <item>
+      <title>Metis App</title>
+      <link>/casestudies/metis/</link>
+      <pubDate>Sun, 15 Nov 2020 03:29:08 -0700</pubDate>
+      
+      <guid>/casestudies/metis/</guid>
+      <description>Context Solution Engineers work with clients to create bespoke apps and dashboards. One of their main jobs, is to gather client requirements efficiently and effectively, so that the solution built is as good as possible.
+The Challenge The Solutions Engineer at the company were using a question bank, stored in a spreadsheet. To create a new interview and run it, they had to copy the spraedsheet and work on it as they were interviewing the customer.</description>
     </item>
     
   </channel>
