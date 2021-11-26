@@ -13,6 +13,14 @@
             {{ partial "hero.html" . }}
             {{ end }}
 
+            {{ if .Site.Params.case_studies.enable }}
+            {{ partial "case_studies.html" . }}
+            {{ end }}
+
+            {{ if .Site.Params.process.enable }}
+            {{ partial "process.html" . }}
+            {{ end }}
+
             {{ if .Site.Params.experience.enable }}
             {{ partial "experience.html" . }}
             {{ end }}
@@ -21,13 +29,6 @@
             {{ partial "education.html" . }}
             {{ end }}
 
-            {{ if .Site.Params.process.enable }}
-            {{ partial "process.html" . }}
-            {{ end }}
-
-            {{ if .Site.Params.case_studies.enable }}
-            {{ partial "case_studies.html" . }}
-            {{ end }}
 
             {{ if .Site.Params.footer.enable }}
             {{ partial "footer.html" . }}
