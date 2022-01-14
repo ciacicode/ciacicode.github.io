@@ -28,7 +28,7 @@ publishDir = "docs"
 
 [params.hero]
     enable = true
-    avatar = "img/avatar1.webp"
+    avatar = "img/avatar.webp"
     subtitle = "Ciao,   I'm Maria"
     intro = "I am a product designer based in London. I like to solve complex problems elegantly and efficiently."
     resume = "MariaCeraseResume.pdf"
