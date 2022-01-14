@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>MariaCerase.com</title>
+    <title>Maria Cerase</title>
     <link>/</link>
-    <description>Recent content on MariaCerase.com</description>
+    <description>Recent content on Maria Cerase</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Sun, 08 Aug 2021 22:29:08 -0700</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Dec 2021 03:29:08 -0700</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fly UX</title>
       <link>/works/flyux/</link>
@@ -41,6 +41,15 @@
       
       <guid>/works/metis/</guid>
       <description>The project started with an assessment of how Solution Engineers were running interviews. They were using a spreadsheet, endlessly scrolling to find questions, copy pasting answers and questions as they went along: a time consuming and uncomfortable experience.</description>
+    </item>
+    
+    <item>
+      <title>Goodreads</title>
+      <link>/works/goodreads/</link>
+      <pubDate>Mon, 20 Dec 2021 03:29:08 -0700</pubDate>
+      
+      <guid>/works/goodreads/</guid>
+      <description>I am a big goodreads app user and fan, but I find the web interface to be very busy, and not really facilitate the primary purpose of finding my next read.</description>
     </item>
     
   </channel>
