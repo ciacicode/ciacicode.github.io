@@ -1,0 +1,43 @@
+{{ define "main" }}
+
+{{ "<!-- works -->" | safeHTML }}
+    <div class="site-section pb-0 site-portfolio">
+      <div class="container">
+        <div class="row mb-5 align-items-end">
+          <div class="col-md-12 col-lg-6 mb-4 mb-lg-0" data-aos="fade-up">
+            <h2>Works</h2>
+          </div>
+          <div class="col-md-12 col-lg-6 text-left text-lg-right" data-aos="fade-up" data-aos-delay="100">
+            <div id="filters" class="filters">
+              <a href="#" data-filter="*" class="active">All</a>
+              <a href="#" data-filter=".design">Design</a>
+              <a href="#" data-filter=".web">Web</a>
+              <a href="#" data-filter=".mobile">Mobile</a>
+              <a href="#" data-filter=".branding">Branding</a>
+            </div>
+          </div>
+        </div>
+        <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
+
+        
+        {{ range where site.RegularPages "Type" "in" site.Params.mainSections }}
+          <div class="item {{ delimit .Params.category ` ` }} col-sm-6 col-md-4 col-lg-4 mb-4">
+            <a href="{{ .URL }}" class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>{{.Title}}</h3>
+              </div>
+              <img class="img-fluid" src="{{ .Site.BaseURL }}img/{{ .Params.thumbnail }}">
+            </a>
+          </div>
+        {{ end }}
+        </div>
+        
+      </div>
+    </div>
+    {{ "<!-- /about -->" | safeHTML }}
+
+
+
+{{ end }}
+
+

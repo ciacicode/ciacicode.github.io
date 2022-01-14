@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Works on MariaCerase.com</title>
+    <link>/works/</link>
+    <description>Recent content in Works on MariaCerase.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Sun, 08 Aug 2021 22:29:08 -0700</lastBuildDate><atom:link href="/works/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fly UX</title>
+      <link>/works/flyux/</link>
+      <pubDate>Fri, 14 May 2021 03:29:08 -0700</pubDate>
+      
+      <guid>/works/flyux/</guid>
+      <description>For my UX Diploma with Caledonian University and UX Design Institute I researched, designed and prototyped a mobile application for a fictional Airline: Fly UX.</description>
+    </item>
+    
+    <item>
+      <title>Safe Foundation Rebranding</title>
+      <link>/works/safefoundation/</link>
+      <pubDate>Sun, 08 Aug 2021 22:29:08 -0700</pubDate>
+      
+      <guid>/works/safefoundation/</guid>
+      <description>SAFE Foundation uses the power of football to educate young children to live healthy lives. The team had lost access to their website and assets, so I helped with rebranding and development of their new online presence.</description>
+    </item>
+    
+    <item>
+      <title>Churn Buster</title>
+      <link>/works/churnbuster/</link>
+      <pubDate>Tue, 14 Oct 2014 03:29:08 -0700</pubDate>
+      
+      <guid>/works/churnbuster/</guid>
+      <description>A small percentage of users were cancelling their VPN subscription, but we did not know why. We had to get visibility of the motivations behind user churn, fast.</description>
+    </item>
+    
+    <item>
+      <title>Metis App</title>
+      <link>/works/metis/</link>
+      <pubDate>Sun, 15 Nov 2020 03:29:08 -0700</pubDate>
+      
+      <guid>/works/metis/</guid>
+      <description>The project started with an assessment of how Solution Engineers were running interviews. They were using a spreadsheet, endlessly scrolling to find questions, copy pasting answers and questions as they went along: a time consuming and uncomfortable experience.</description>
+    </item>
+    
+  </channel>
+</rss>

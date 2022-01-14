@@ -1,63 +1,70 @@
 baseURL = "/"
 languageCode = "en-uk"
 title = "Maria Cerase"
-theme = "hugo-lodi-theme-master"
-googleAnalytics = "UA-8562021-6"
+theme = "sleekfolio"
+googleAnalytics = "G-7PE55B06FD"
 publishDir = "docs"
 
 [params]
-    theme_color = "#2B826E"
     description = "Maria Cerase's personal website"
+    keywords = "product designer, portfolio, ux design, freelancer, ui design, product management"
     description_photo = "portfolio.jpg"
     favicon = "favicon.png"
-    logo = "logo.png"
     email = "maria.cerase@gmail.com"
-    twitter = "SuperMaryCherry"
-    dribbble = "ciacicode"
-    linkedin = "https://www.linkedin.com/in/mariacerase"
-    medium = "SuperMaryCherry"
-    github = "ciacicode"
+    mainSections = ['works']
+    navfocus = "Product Designer currently working @ MiQ"
+    statement = "Get in touch to talk about design, typography, business, food!."
+
+[params.style]
+    body_font= "Open+Sans"
+    header_font = "Martel"
+    font_color = "black"
+    accent_color = "#2708a0"
 
 [sitemap]
   changefreq = "monthly"
   filename = "sitemap.xml"
   priority = 0.5
 
-[params.nav]
-    enable = true
-
 [params.hero]
     enable = true
-    avatar = "avatar.webp"
+    avatar = "img/avatar1.webp"
     subtitle = "Ciao,   I'm Maria"
-    hero_right = ["I am a Product Design professional with 10+ years experience working across B2B and B2C products and platforms. Currently, I work as a User Experience Design Lead at MiQ, helping a small team of UX designers to improve the usability of MiQ's tech stack. I also like to bake, play tennis, and do some Python scripting."]
+    intro = "I am a product designer based in London. I like to solve complex problems elegantly and efficiently."
     resume = "MariaCeraseResume.pdf"
 
-[params.process]
-    enable = true
-    title = "Process"
-    subtitle = "My approach to Product Design"
 
 
-[params.experience]
-    enable = true
-    title = "Experience"
-    subtitle = "Top Jobs"
+[[menu.main]]
+  name = "About Me"
+  url = "/about"
 
-[params.education]
-    enable = true
-    title = "Education"
-    subtitle = "Diplomas and Degrees"
+[[menu.main]]
+  name = "Works"
+  url = "/works"
 
-[params.case_studies]
-    enable = true
-    title = "Case Studies"
-    subtitle = "Selected Works"
+[[menu.social]]
+    name = "GitHub"
+    url = "https://github.com/ciacicode"
+    pre = "icofont-github"
 
-[params.services]
-    enable = true
-    title = "Services"
-    subtitle = "Partnerships"
+[[menu.social]]
+    name = "Dribble"
+    url = "https://dribbble.com/ciacicode"
+    pre = "icofont-dribble"
 
-[params.footer]
-    enable = true
+[[menu.social]]
+    name = "Twitter"
+    url = "https://twitter.com/SuperMaryCherry"
+    pre = "icofont-twitter"
+
+[[menu.social]]
+    name = "Medium"
+    url = "https://supermarycherry.medium.com"
+    pre = "icofont-justify-left"
+
+
+
+[[menu.footer]]
+  name = "About"
+  url = "/about"

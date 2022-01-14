@@ -1,0 +1,20 @@
+process:
+  - weight: 1
+    title: "Research and Analyse"
+    icon: "eyeball.svg"
+    description: "I always starts asking questions about the problem and how we will measure success. Once those details are defined, I take care of writing scenarios by creating user journey maps, affinity diagrams, anything that can clarify the problem. "
+
+  - weight: 2
+    title: "Design"
+    icon: "rulerpencil.svg"
+    description: "I like to summarise all my findings and recommendations, and then start with some research into design patterns, and new trends. I then go on, to sketch a couple of differentc concepts, and quickly get feedback from stakeholders to narrow down the solution."
+
+  - weight: 3
+    title: "Test"
+    icon: "repeat.svg"
+    description: "If working on an existing product, I start with testing the current design, and then the new designs. Only after success criteria are met, I feel the project can move on."
+
+  - weight: 4
+    title: "Finalise"
+    icon: "ui.svg"
+    description: "I address every single aspect of the design, in extreme detail. I like to make sure all aspects of the user flow are documented, before they are handed over to other designers or developers."
