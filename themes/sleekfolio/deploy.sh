@@ -6,7 +6,7 @@ set -e
 printf "Deploying updates to mariacerase com"
 
 # Build the project.
-hugo --config config.toml -D -t sleekfolio # if using a theme, replace with `hugo -t <YOURTHEME>`
+hugo -D -t sleekfolio # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Docs folder
 cd docs
@@ -23,3 +23,4 @@ git commit -m "$msg"
 
 # Push source and build repos.
 git push origin master
+

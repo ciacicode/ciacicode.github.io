@@ -6,7 +6,7 @@ set -e
 printf "Deploying updates to mariacerase com"
 
 # Build the project.
-hugo --config config.toml -D -t sleekfolio # if using a theme, replace with `hugo -t <YOURTHEME>`
+hugo --baseURL="http://www.mariacerase.com"  -D -t sleekfolio # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Docs folder
 cd docs
