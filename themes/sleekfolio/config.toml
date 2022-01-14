@@ -1,5 +1,3 @@
-
-   
 # This file is for render site varibles and plugins
 # don't remove this file.
 # The presence of this file is for compatibility with Blogdown and Forestry.
@@ -32,4 +30,3 @@ link = "plugins/slick/slick.min.js"
 # [[params.plugins.js]]
 # link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"
 # attributes = "crossorigin='anonymous' defer='defer' data-search-pseudo-elements"
-Loading complete
