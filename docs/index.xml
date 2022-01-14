@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Maria Cerase</title>
-    <link>http://www.mariacerase.com/</link>
+    <link>/</link>
     <description>Recent content on Maria Cerase</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 20 Dec 2021 03:29:08 -0700</lastBuildDate><atom:link href="http://www.mariacerase.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Dec 2021 03:29:08 -0700</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fly UX</title>
-      <link>http://www.mariacerase.com/works/flyux/</link>
+      <link>/works/flyux/</link>
       <pubDate>Fri, 14 May 2021 03:29:08 -0700</pubDate>
       
-      <guid>http://www.mariacerase.com/works/flyux/</guid>
+      <guid>/works/flyux/</guid>
       <description>For my UX Diploma with Caledonian University and UX Design Institute I researched, designed and prototyped a mobile application for a fictional Airline: Fly UX.</description>
     </item>
     
     <item>
       <title>Safe Foundation Rebranding</title>
-      <link>http://www.mariacerase.com/works/safefoundation/</link>
+      <link>/works/safefoundation/</link>
       <pubDate>Sun, 08 Aug 2021 22:29:08 -0700</pubDate>
       
-      <guid>http://www.mariacerase.com/works/safefoundation/</guid>
+      <guid>/works/safefoundation/</guid>
       <description>SAFE Foundation uses the power of football to educate young children to live healthy lives. The team had lost access to their website and assets, so I helped with rebranding and development of their new online presence.</description>
     </item>
     
     <item>
       <title>Churn Buster</title>
-      <link>http://www.mariacerase.com/works/churnbuster/</link>
+      <link>/works/churnbuster/</link>
       <pubDate>Tue, 14 Oct 2014 03:29:08 -0700</pubDate>
       
-      <guid>http://www.mariacerase.com/works/churnbuster/</guid>
+      <guid>/works/churnbuster/</guid>
       <description>A small percentage of users were cancelling their VPN subscription, but we did not know why. We had to get visibility of the motivations behind user churn, fast.</description>
     </item>
     
     <item>
       <title>Metis App</title>
-      <link>http://www.mariacerase.com/works/metis/</link>
+      <link>/works/metis/</link>
       <pubDate>Sun, 15 Nov 2020 03:29:08 -0700</pubDate>
       
-      <guid>http://www.mariacerase.com/works/metis/</guid>
+      <guid>/works/metis/</guid>
       <description>The project started with an assessment of how Solution Engineers were running interviews. They were using a spreadsheet, endlessly scrolling to find questions, copy pasting answers and questions as they went along: a time consuming and uncomfortable experience.</description>
     </item>
     
     <item>
       <title>Goodreads</title>
-      <link>http://www.mariacerase.com/works/goodreads/</link>
+      <link>/works/goodreads/</link>
       <pubDate>Mon, 20 Dec 2021 03:29:08 -0700</pubDate>
       
-      <guid>http://www.mariacerase.com/works/goodreads/</guid>
+      <guid>/works/goodreads/</guid>
       <description>I am a big goodreads app user and fan, but I find the web interface to be very busy, and not really facilitate the primary purpose of finding my next read.</description>
     </item>
     
