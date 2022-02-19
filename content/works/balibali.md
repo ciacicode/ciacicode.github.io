@@ -1,6 +1,6 @@
 ---
 weight: 6
-title: "Balì Balì"
+title: "balì balì"
 description: "Idea for a new luxury fashion brand"
 thumbnail: "balibalithumbnail.webp"
 featureimage: "balibalicover.webp"
