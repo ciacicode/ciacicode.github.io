@@ -6,7 +6,7 @@
     <description>Recent content on Maria Cerase</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 20 Dec 2021 03:29:08 -0700</lastBuildDate><atom:link href="http://www.mariacerase.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Feb 2022 22:29:08 -0700</lastBuildDate><atom:link href="http://www.mariacerase.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fly UX</title>
       <link>http://www.mariacerase.com/works/flyux/</link>
@@ -50,6 +50,15 @@
       
       <guid>http://www.mariacerase.com/works/goodreads/</guid>
       <description>I am a big goodreads app user and fan, but I find the web interface to be very busy, and not really facilitate the primary purpose of finding my next read.</description>
+    </item>
+    
+    <item>
+      <title>Balì Balì</title>
+      <link>http://www.mariacerase.com/works/balibali/</link>
+      <pubDate>Sun, 13 Feb 2022 22:29:08 -0700</pubDate>
+      
+      <guid>http://www.mariacerase.com/works/balibali/</guid>
+      <description>I wanted to showcase how I can ideate and execute a brand and its guidelines</description>
     </item>
     
   </channel>

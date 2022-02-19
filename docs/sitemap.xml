@@ -38,14 +38,21 @@
   </url>
   
   <url>
+    <loc>http://www.mariacerase.com/works/balibali/</loc>
+    <lastmod>2022-02-13T22:29:08-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://www.mariacerase.com/</loc>
-    <lastmod>2021-12-20T03:29:08-07:00</lastmod>
+    <lastmod>2022-02-13T22:29:08-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.mariacerase.com/works/</loc>
-    <lastmod>2021-12-20T03:29:08-07:00</lastmod>
+    <lastmod>2022-02-13T22:29:08-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
