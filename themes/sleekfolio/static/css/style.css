@@ -4,8 +4,26 @@ body {
   line-height: 1.75;
 }
 
+.container{
+  max-width: 1000px;
+}
+
+img{
+  max-width: 100%;
+}
+
 a {
   color: #777;
+}
+
+.col-md-8{
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.col-md-3 {
+  flex: 0 0 33%;
+  max-width: 33%;
 }
 
 a:hover {
@@ -376,7 +394,7 @@ h3 {
 /* Custom Navbar */
 
 .custom-navbar {
-  padding-top: 50px;
+  padding-top: 100px;
   width: 100%;
 }
 
@@ -501,7 +519,7 @@ h3 {
 
 
 @media (max-width: 780px) {
-  .custom-navbar > .container {
+  .custom-navbar >  {
     padding-right: 0;
     padding-left: 0;
   }
