@@ -1,5 +1,5 @@
 ---
-weight: 3
+weight: 7
 title: "Churn Buster"
 description: "Research and design of a cancellation flow."
 thumbnail: "hmathumbnail.webp"
@@ -9,7 +9,7 @@ team: ["Maria Cerase", "Privax Design and Product team"]
 category: ["web", "optimisation"]
 methods: ["Google Analytics", "User Flow", "Wireframing"]
 date: 2014-10-14T03:29:08-07:00
-draft: false
+draft: true
 ---
 
 ## Context
