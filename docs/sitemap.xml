@@ -17,8 +17,7 @@
   </url>
   
   <url>
-    <loc>http://www.mariacerase.com/works/churnbuster/</loc>
-    <lastmod>2014-10-14T03:29:08-07:00</lastmod>
+    <loc>http://www.mariacerase.com/works/1life/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -40,6 +39,13 @@
   <url>
     <loc>http://www.mariacerase.com/works/balibali/</loc>
     <lastmod>2022-02-13T22:29:08-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.mariacerase.com/works/churnbuster/</loc>
+    <lastmod>2014-10-14T03:29:08-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
