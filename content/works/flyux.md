@@ -1,9 +1,7 @@
 ---
 weight: 1
 title: "Fly UX"
-description: "I researched and created designs for the Mobile app of a fictional Airline: Fly UX"
 thumbnail: "flythumbnail.webp"
-summary: "For my UX Diploma with Caledonian University and UX Design Institute I researched, designed and prototyped a mobile application for a fictional Airline: Fly UX."
 featureimage: "/works/flyux/img/flyfeature.jpg"
 team: ["Maria Cerase"]
 category: ["mobile","design"]
@@ -34,9 +32,10 @@ Airline apps are quite complex applications. Users' goodwill can easily diminish
 
 ## Research and Analysis
 
-![](/works/flyux/img/research.jpg)
 
-I ran usability studies and interviews, to get an understanding of context, goals and behaviours of flyers. With that information I designed user journey map and affinity diagram. From the start, price and time emerged as the most important factors of decision making. These were the top insights:
+I ran usability studies and interviews, to get an understanding of context, goals and behaviours of flyers. With that information I designed user journey map and affinity diagram. From the start, price and time emerged as the most important factors of decision making. 
+
+These were the top insights:
 
 **Price confusion**
 <br>Switching between 'Price per person' and 'Total price' was often not clear, and created some serious disappointments in users that felt cheated or tricked by the way the information on price was displayed.
@@ -46,6 +45,8 @@ I ran usability studies and interviews, to get an understanding of context, goal
 
 **Passenger info Pain**
 <br>The most painful and time consuming task was the completion of passenger information. The apps that performed the best were those that made this step as simple as possible, with prefilled form fields and minimal inputs required.
+
+![](/works/flyux/img/research.jpg)
 
 **User Journey**
 ![](/works/flyux/img/journey.png)

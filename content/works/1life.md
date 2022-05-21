@@ -29,6 +29,7 @@ I decided this experience could be turned around in a very simple way: using boo
 
 
 ## Design
+
 ![](/works/1life/wireframe.webp)
 
 In this very simple wireframe, the information hierarchy has been deepened. There are additional filters that allow the user to filter classes by facility. Facilities are dependent on the Health Centre selection, and the Health Center can be defaulted to the one that is either geographically closest, or if the user is logged in, to the preferred one. The classes are expressed as cards, where time of the class is very prominent, and the call to action is also clear. In the current design, the whole concept of 'Waitlist' is quite pointless, as it rarely happens that you go from waitlist to booking. 
