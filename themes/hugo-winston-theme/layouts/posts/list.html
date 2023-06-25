@@ -1,0 +1,14 @@
+{{ define "body_classes" }}page-blog-list{{ end }}
+
+{{ define "main" }}
+  <div class="intro">
+    <h1>{{ .Title }}</h1>
+  </div>
+  {{ .Content }}
+  {{ $paginator := .Paginate (where .Pages "Type" "posts") }}
+  {{ range $paginator.Pages }}
+    {{ .Render "summary" }}
+  {{ end }}
+  {{ partial "paginator" . }}
+{{ end }}
+

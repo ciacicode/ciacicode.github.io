@@ -1,0 +1,37 @@
+.summary {
+  font-size: 22x;
+  line-height: 123%;
+  margin:0px 0px 64px 0px;
+  @include breakpoint('small') {
+    margin-bottom: 32px;
+    font-size: 18px;
+    line-height: 113%;
+  }
+  .summary-details{
+  display: flex;
+  margin-top: 40px;
+  padding:0px;
+  @include breakpoint ('medium'){
+  display: inline-block;
+  }
+  }
+  .summary-description {
+
+    display: inline-block;
+    padding-left: 24px;
+    padding-right: 24px;
+    @include breakpoint ('medium'){
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+  }
+  .summary-image{
+  display:inline;
+   max-width: 66%;
+   height: auto;
+   @include breakpoint ('medium'){
+   margin-bottom: 24px;
+   max-width: 100%;
+   }
+  }
+}

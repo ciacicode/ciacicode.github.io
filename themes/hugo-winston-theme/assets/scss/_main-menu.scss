@@ -1,0 +1,43 @@
+
+.menu-main {
+  display: none;
+  flex: 0;
+  > ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    > li {
+      margin-right: 8px;
+      > a {
+        display: inline-block;
+        padding: 3px 6px 6px 6px;
+        text-decoration: none;
+        font-size: 22px;
+        letter-spacing: 0.04em;
+        color: var(--frame-color);
+        &:hover {
+          background-color: var(--frame-color);
+          color: white;
+          font-weight: bold;
+          border-radius: 2px;
+          padding: 3px 6px 6px 6px;
+          
+        }
+      }
+      &.active {
+        > a {
+          font-size: 22px;
+          background-color: var(--frame-color);
+          margin-right: 8p;
+          color: white !important;
+          font-weight: bold;
+          border-radius: 2px;
+          padding: 3px 6px 6px 6px;
+        }
+      }
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{{ define "body_classes" }}page-blog-single{{ end }}
+
+{{ define "main" }}
+  <div class="blog">
+    <h1 class="mega">{{ .Title }}</h1>
+
+    {{ if .Params.tags }}
+        {{ range .Params.tags }}
+        <button class="tag"> {{.}}  </button>
+        {{end}}
+      {{ end }}
+
+    <div class="cover">
+      {{ if .Params.image }}
+      <img src="{{ .Params.image | relURL }}" />
+      {{ end }}
+      {{ if .Params.context}}
+      <div>
+      <div class="context">
+        <h1> Context </h1>
+            {{ if .Params.year}}
+       <p> Year: {{ .Params.year }}</p>
+       {{end}}
+        <p> {{ .Params.context}} </p>
+      {{end}}
+       </div>
+       {{ if .Params.testimonial}}
+        {{ partial "testimonial.html" . }}
+       {{ end }}
+     </div>
+
+    </div>
+
+    <div class="content blogtext">
+      {{ .Content }}
+    </div>
+
+
+  </div>
+{{ end }}

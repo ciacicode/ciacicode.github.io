@@ -1,0 +1,153 @@
+.glasses {
+  max-width: 100%;
+  color: var(--heading-color);
+  img {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+  }
+  @include breakpoint ('medium'){
+  display: none;
+  }
+}
+.glasses-large {
+  max-width:100%;
+  img {
+    /* position: absolute; */
+    left: 0px;
+  }
+}
+
+.grips{
+  position: relative;
+  margin-top: -30%;
+  margin-left:-20%;
+  max-width: 55%;
+  @include breakpoint ('medium'){
+  display: none;
+  }
+}
+
+.twothirds{
+  max-width: 66%;
+  display: inline;
+}
+
+.onethird{
+  width: 33%;
+  display: inline;
+  padding-left: 24px;
+}
+
+.pcard {
+max-width: 25%;
+display: flex;
+float:left;
+flex-direction: column;
+flex:1;
+align-items: center;
+padding: 32px;
+gap: 32px;
+position:relative;
+@include breakpoint ('medium'){
+  min-width: 100%;
+  padding: 32px;
+}
+}
+
+.process-details{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  padding:0px;
+  gap: 24px;
+}
+
+
+.home{
+  margin-bottom: 48px;
+}
+
+.button {
+  /* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 16px;
+gap: 8px;
+position: relative;
+background: #FF006E;
+border-radius: 4px;
+font-size: 22px;
+color: white;
+border-bottom: 4px solid black;
+border:none ;
+box-shadow: 0 4px 0 #2708A0;
+}
+
+.button:hover {
+      background-color:#D3045E;
+      transition: 0.7s;
+  }
+
+.button:active {
+  box-shadow: none;
+  background: #A8044B;
+}
+
+.button::before{
+    bottom: -4px;
+    content: "";
+    display: block;
+    left: -2px;
+    position: absolute;
+    right: -2px;
+}
+
+.blogtext{
+  max-width: 63%;
+  @include breakpoint ('medium'){
+  max-width: 100%;
+  }
+}
+
+.cover{
+  display:flex;
+  > img {
+  margin: 24px 24px 24px 0px;
+  max-width: 63%;
+  object-fit: cover; 
+  }
+  @include breakpoint ('mlarge'){
+  display: inline-block;
+  }
+}
+
+.testimonial{
+  /* Auto layout */
+
+display: block;
+gap: 16px;
+text-align: left;
+margin-top: 40px;
+
+height: auto;
+> img{
+  margin-bottom: 16px;
+  border-radius: 4px;
+}
+> h3{
+  color: #6D757E;
+  font-size: 22px;
+}
+> p{
+  font-family: "Quattrocento", "serif";
+  font-size: 22px;
+  margin: 0px;
+  font-style: italic;
+
+}
+}
+
+

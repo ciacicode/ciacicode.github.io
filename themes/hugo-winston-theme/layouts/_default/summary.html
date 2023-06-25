@@ -1,0 +1,23 @@
+
+<div class="summary">
+  <h1>{{ .Title }}</h1>
+  <div class="row" style="margin-left:0px;">
+    <div class="summary-details">
+        <img class="summary-image" src="{{ .Params.image | relURL }}" />
+        <div class="summary-description">
+          <p >{{ .Params.description }}</p>
+              {{ if .Params.year}}
+       <p> Year: {{ .Params.year }}</p>
+       {{end}}
+          
+           {{ if .Params.tags }}
+    
+             {{ range .Params.tags }}
+              <button class="tag"> {{.}}  </button>
+            {{end}}
+          {{ end }}
+          <a href="{{ .RelPermalink }}">Read More</a>
+        </div>
+    </div>
+  </div>
+</div>

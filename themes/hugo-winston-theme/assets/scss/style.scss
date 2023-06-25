@@ -1,0 +1,94 @@
+:root {
+  --font-family-heading: 'Manrope', sans-serif;
+  --font-family-paragraph: WorkSans, sans-serif;
+  --font-family-monospace: monospace;
+  --base-color: {{ .Site.Params.baseColor | default "#ffffff" }};
+  --base-offset-color: {{ .Site.Params.baseOffsetColor | default "#eaeaea" }};
+  --highlight-color: {{ .Site.Params.highlightColor | default "#7b16ff" }};
+  --heading-color: {{ .Site.Params.headingColor | default "#1c1b1d" }};
+  --text-color: {{ .Site.Params.textColor | default "#4e5157" }};
+  --dot-color: {{ .Site.Params.dotColor | default "#7b16ff" }};
+  --frame-color: {{ .Site.Params.frameColor| default "#FF006E" }};
+}
+
+$enable-negative-margins: false;
+
+$breakpoints: (
+  'small': 393px,
+  'medium': 768px,
+  'mlarge': 1024px,
+  'large': 1200px,
+);
+
+@import 'normalize';
+@import 'breakpoints';
+@import 'header';
+@import 'footer';
+@import 'main-menu';
+@import 'content';
+@import 'intro';
+@import 'summary';
+@import 'custom';
+@import 'pagination';
+@import 'main-menu-mobile';
+@import 'pygments/github';
+
+html, body {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 100%;
+  min-width: 393px;
+  background: var(--base-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 60px 100px 40px 100px;
+  &.frame {
+    min-height: 100vh;
+    border: 60px solid var(--frame-color);
+    @include breakpoint ('mlarge'){
+      border: 32px solid var(--frame-color);
+      padding: 32px;
+    }
+  }
+}
+
+.wrapper {
+  max-width: 1200px;
+}
+
+.scale{
+  margin-top: 25%;
+  margin-bottom: 20%;
+}
+
+.scale > div > div {
+  @include breakpoint ('medium'){
+  display: inline-block;
+  min-width: 100%;
+  }
+}
+
+$grid-columns:      12;
+$grid-gutter-width: 24px;
+
+$grid-breakpoints: (
+  // Extra small screen / phone
+  xs: 393,
+  // Small screen / phone
+  sm: 576px,
+  // Medium screen / tablet
+  md: 768px,
+  // Large screen / desktop
+  lg: 992px,
+  // Extra large screen / wide desktop
+  xl: 1200px
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1200px
+);

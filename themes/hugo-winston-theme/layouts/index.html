@@ -1,0 +1,77 @@
+{{ define "body_classes" }}page-home{{ end }}
+
+{{ define "main" }}
+
+    
+  <div class="intro">
+    <h1>{{ .Title | safeHTML }}</h1>
+      <span class="typed-text"></span><span class="cursor">&nbsp;</span>
+  </div>
+  {{ partial "topglasses.html" . }}
+  
+<section class="home">
+   <div class="scale">
+   {{ if .Site.Data.home.features }}
+    
+      {{ range .Site.Data.home.features }}
+    <div class="{{ .class }}">
+    <div class="third">
+          <h3> {{ .name }} </h3>
+          <p>{{ .description}}</p>
+    </div>
+    </div>
+      {{ end }}
+    {{ end }}
+</div>
+</section>
+
+{{ partial "grips.html" . }}
+
+<section class="home">
+<h3>Design Systems</h3>
+  {{ range where (where .Site.RegularPages "Type" "posts" ) "Params.featured" "==" true }}
+    {{ .Render "summary" }}
+  {{ end }}
+
+   <a href="/posts">See other Works</a>
+</section>
+
+
+<section >
+  <div class="summary">
+    <h3>{{ .Site.Data.home.process.name}}</h3>
+    <div class="process-details">
+      {{ if .Site.Data.home.process.sections }}
+    
+      {{ range .Site.Data.home.process.sections }}
+    <div class=" pcard">
+          <h4> {{ .name }} </h4>
+          <img width="24px" src="{{ .icon | relURL }}" alt="" />
+          <p>{{ .description}}</p>
+    </div>
+      {{ end }}
+    {{ end }}
+    </div>
+</div>
+</section>
+<section >
+  <div class="summary">
+    <h3>{{ .Site.Data.home.coaching.name}}</h3>
+    <div class="summary-details">
+      <p class="twothirds">{{ .Site.Data.home.coaching.description}}</p>
+      <img class="onethird" src="{{ .Site.Data.home.coaching.image | relURL}}"/>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+{{ end }}
+
+{{ define "footer_js" }}
+{{ end }}
