@@ -1,70 +1,45 @@
 baseURL = "/"
 languageCode = "en-uk"
-title = "Maria Cerase"
-theme = "sleekfolio"
-googleAnalytics = "G-7PE55B06FD"
-publishDir = "docs"
+theme = "hugo-winston-theme"
+themesDir = "themes"
+title = "MARIACERASE.COM"
+paginate = 3
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.55.0"
 
 [params]
-    description = "Maria Cerase's personal website"
-    keywords = "product designer, portfolio, ux design, freelancer, ui design, product management"
-    description_photo = "portfolio.jpg"
-    favicon = "favicon.png"
-    email = "maria.cerase@gmail.com"
-    mainSections = ['works']
-    navfocus = "Product Designer currently working @ MiQ"
-    statement = "Get in touch to talk about design, typography, business, food!."
+  google_analytics_id = "G-7PE55B06FD"
+  twitter_handle = "@zerostaticio"
+  showAuthorOnHomepage = false
+  showAuthorOnPosts = true
+  showPostsOnHomepage = false
+  addDot = false
+  addFrame = true
+  highlightColor = '#3A0CA3'
+  baseColor = "#FCFCFC"
+  baseOffsetColor = "#3A0CA3"
+  headingColor = "#1E1B18"
+  textColor = "#1E1B18"
+  dotColor = "#FF006E"
+  frameColor="#FF006E"
 
-[params.style]
-    body_font= "Open+Sans"
-    header_font = "Martel"
-    font_color = "black"
-    accent_color = "#2708a0"
+# markdown config settings https://gohugo.io/getting-started/configuration-markup/#goldmark
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false
 
-[sitemap]
-  changefreq = "monthly"
-  filename = "sitemap.xml"
-  priority = 0.5
-
-[params.hero]
-    enable = true
-    avatar = "img/avatar.webp"
-    subtitle = "Ciao,   I'm Maria"
-    intro = "I am a product designer based in London. I like to solve complex problems elegantly and efficiently."
-    resume = "MariaCeraseResume.pdf"
-
-
-
-[[menu.main]]
-  name = "About Me"
-  url = "/about"
-
-[[menu.main]]
-  name = "Works"
-  url = "/works"
-
-[[menu.social]]
-    name = "GitHub"
-    url = "https://github.com/ciacicode"
-    pre = "icofont-github"
-
-[[menu.social]]
-    name = "Dribble"
-    url = "https://dribbble.com/ciacicode"
-    pre = "icofont-dribble"
-
-[[menu.social]]
-    name = "Twitter"
-    url = "https://twitter.com/SuperMaryCherry"
-    pre = "icofont-twitter"
-
-[[menu.social]]
-    name = "Medium"
-    url = "https://supermarycherry.medium.com"
-    pre = "icofont-justify-left"
-
-
-
-[[menu.footer]]
-  name = "About"
-  url = "/about"
+[menu]
+  [[menu.main]]
+    identifier = 'home'
+    name = 'Home'
+    url = '/'
+    weight = 1

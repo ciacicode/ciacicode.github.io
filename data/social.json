@@ -1,0 +1,19 @@
+{
+  "links": [
+    {
+      "name": "dribbble",
+      "url": "https://dribbble.com/ciacicode",
+      "image": "images/social/dribbble.svg"
+    },
+    {
+      "name": "github",
+      "url": "https://github.com/ciacicode",
+      "image": "images/social/github.svg"
+    },
+    {
+      "name": "linkedin",
+      "url": "https://www.linkedin.com/in/mariacerase/",
+      "image": "images/social/linkedin.svg"
+    }
+  ]
+}

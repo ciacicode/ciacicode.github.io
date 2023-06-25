@@ -1,0 +1,33 @@
+{
+  "features": [
+    {
+      "name": "Design Systems",
+      "class": "row justify-content-start",
+      "description": "I love creating and maintaining design systems, for work and personal use."
+    },
+    {
+      "name": "Design Process",
+      "class": "row justify-content-center",
+      "description": "The process is just as important as the outcome. It warrants thought and care."
+    },
+    {
+      "name": "Coaching",
+      "class": "row justify-content-end",
+      "description": "It’s a tough job working in product design. There is no need to make it harder."
+    }
+  ],
+  "coaching":{
+    "name": "Coaching",
+    "image": "images/abstract.svg",
+    "description": "Product design may be your calling, but the key to a good career is understanding what truly motivates you. There are aspects of a given job that transcend roles, levels and company culture. Finding that spark within ourselves is the key to always staying focused and satisfied with the work we do."
+  },
+  "process":{
+    "name": "Design Process",
+    "image": "images/process.svg",
+    "sections": [
+      {"name":"Discover", "icon":"images/icons/discover.svg","description":"Always challenging the hypothesis. Always looking for the real root cause."} , 
+      {"name":"Define","icon":"images/icons/define.svg", "description":"Setting scope crystal clear. Prioritising each aspect of the problem"}, 
+      {"name":"Design","icon":"images/icons/design.svg", "description":"Researching new and established patterns. Sketching rough ideas for a quicker feedback cycle."}, 
+      {"name":"Deliver","icon":"images/icons/deliver.svg","description":"Validating all the key scenarios and delivering designs and documentation with obsessive attention to detail."}]
+  }
+}
