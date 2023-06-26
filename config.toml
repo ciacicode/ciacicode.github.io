@@ -4,6 +4,7 @@ theme = "hugo-winston-theme"
 description = "Maria Cerase's personal website"
 themesDir = "themes"
 title = "MARIACERASE.COM"
+publishDir = "/public"
 keywords = "product designer, portfolio, ux design, freelancer, ui design"
 paginate = 3
 pygmentsCodeFences = true
