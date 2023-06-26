@@ -25,6 +25,7 @@ $breakpoints: (
 @import 'breakpoints';
 @import 'header';
 @import 'footer';
+@import "bootstrap/bootstrap";
 @import 'main-menu';
 @import 'content';
 @import 'intro';
@@ -33,6 +34,7 @@ $breakpoints: (
 @import 'pagination';
 @import 'main-menu-mobile';
 @import 'pygments/github';
+
 
 html, body {
   box-sizing: border-box;
