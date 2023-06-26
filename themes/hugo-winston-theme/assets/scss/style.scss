@@ -67,6 +67,11 @@ body {
   margin-bottom: 20%;
 }
 
+.scale > div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .scale > div > div {
   @include breakpoint ('medium'){
   display: inline-block;

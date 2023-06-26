@@ -1031,6 +1031,10 @@ body {
   margin-top: 25%;
   margin-bottom: 20%; }
 
+.scale > div {
+  display: flex;
+  flex-wrap: wrap; }
+
 @media (max-width: 768px) {
   .scale > div > div {
     display: inline-block;
