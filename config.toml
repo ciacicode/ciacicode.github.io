@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://www.mariacerase.com/"
 languageCode = "en-uk"
 theme = "hugo-winston-theme"
 description = "Maria Cerase's personal website"
