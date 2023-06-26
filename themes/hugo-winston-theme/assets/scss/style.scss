@@ -17,7 +17,8 @@ $breakpoints: (
   'small': 393px,
   'medium': 768px,
   'mlarge': 1024px,
-  'large': 1200px,
+  'large': 1440px,
+  'xlarge': 1920px
 );
 
 @import 'normalize';
@@ -43,10 +44,13 @@ body {
   background: var(--base-color);
   color: var(--text-color);
   margin: 0;
-  padding: 60px 100px 40px 100px;
+  padding: 60px 240px 40px 240px;
   &.frame {
     min-height: 100vh;
     border: 60px solid var(--frame-color);
+    @include breakpoint ('large'){
+      padding: 60px 100px 40px 100px;
+    }
     @include breakpoint ('mlarge'){
       border: 32px solid var(--frame-color);
       padding: 32px;
@@ -55,7 +59,7 @@ body {
 }
 
 .wrapper {
-  max-width: 1200px;
+  max-width: 100%;
 }
 
 .scale{

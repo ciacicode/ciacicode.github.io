@@ -297,6 +297,7 @@ ul {
   line-height: 1.11;
   font-weight: 800;
   letter-spacing: -0.02em;
+  font-family: var(--font-family-heading);
   color: var(--base-color);
   border-radius: 16px;
   display: inline;
@@ -1012,16 +1013,19 @@ body {
   background: var(--base-color);
   color: var(--text-color);
   margin: 0;
-  padding: 60px 100px 40px 100px; }
+  padding: 60px 240px 40px 240px; }
   body.frame {
     min-height: 100vh;
     border: 60px solid var(--frame-color); }
+    @media (max-width: 1440px) {
+      body.frame {
+        padding: 60px 100px 40px 100px; } }
     @media (max-width: 1024px) {
       body.frame {
         border: 32px solid var(--frame-color);
         padding: 32px; } }
 .wrapper {
-  max-width: 1200px; }
+  max-width: 100%; }
 
 .scale {
   margin-top: 25%;
