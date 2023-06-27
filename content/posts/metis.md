@@ -21,14 +21,14 @@ The Solutions Engineer at the company were using a question bank, stored in a sp
 
 The first step was to interview Solutions Engineer to understand what they liked and disliked about the current solution and their goal. I asked about the context in which they run interviews, especially about device types, access to the internet, if they had assistance of a colleague. Top user pain points were:
 
-**Too many questions to scroll through**
-<br>The question bank is vast, and even though they were categorised, they were hard to scroll through in a spreadsheet.
+### Too many questions to scroll through
+The question bank is vast, and even though they were categorised, they were hard to scroll through in a spreadsheet.
 
-**Scoring was not simple**
-<br>Each answer had to be typed and then scored. Scores had to be entered in a cell, and it was hard to respect scoring guidances that were scattered in the spreadsheet.
+### Scoring was not simple
+Each answer had to be typed and then scored. Scores had to be entered in a cell, and it was hard to respect scoring guidances that were scattered in the spreadsheet.
 
-**Lack of a summary**
-<br>After the interview, the team reviews the answers and scores to brainstorm solutions. The spreadsheet does not allow to easily get a summary of the entire interview, making the brainstorm cumbersome.
+### Lack of a summary
+After the interview, the team reviews the answers and scores to brainstorm solutions. The spreadsheet does not allow to easily get a summary of the entire interview, making the brainstorm cumbersome.
             
 ## Design
 
@@ -43,11 +43,11 @@ After designing the flow, I concentrated on the key interactions in a low fideli
 
 From low fidelity, to high fidelity prototype, I tested the experience with volunteers solutions engineers and gathered some feedback. With this feedback I could improve.
 
-**Question dependency**
-<br>If an answer to question A was 'Yes', a subset of questions should pop up, for an answer of 'No', another set of questions should pop up. This interdepency made the job more complex, but also more interesting.
+### Question dependency
+If an answer to question A was 'Yes', a subset of questions should pop up, for an answer of 'No', another set of questions should pop up. This interdepency made the job more complex, but also more interesting.
 
-**Asynchronous scoring**
-<br>Some Solutions Engineers feel confident scoring answers as they go, while others feel more comfortable scoring after the interview is over. It was important to give a space to review answers and score at any time.
+### Asynchronous scoring
+Some Solutions Engineers feel confident scoring answers as they go, while others feel more comfortable scoring after the interview is over. It was important to give a space to review answers and score at any time.
 
 ## Finalise
 

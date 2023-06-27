@@ -21,11 +21,11 @@ The charity had lost access to the assets of their website, so needed a new webs
 
 To get started I asked John, the CEO, a lot of questions about the charity. The whats the and the whys of the foundation. I got access to the original branding and found out:
 
-**Yellow as primary colour**
-<br>The main logo had Yellow as a primary colour, a colour that is quite hard to work with for contrast reasons. 
+### Yellow as primary colour
+The main logo had Yellow as a primary colour, a colour that is quite hard to work with for contrast reasons. 
 
-**Children programmes**
-<br>The charity organises all sorts of programmes and events for children across different South London areas. Those events need to be attractive and available for bookings.
+### Children programmes
+The charity organises all sorts of programmes and events for children across different South London areas. Those events need to be attractive and available for bookings.
 
 I decided I would create a brand guideline, with logo, colour and typography guidelines to deliver to the Foundation and help me get started on the web development part of the project.
             

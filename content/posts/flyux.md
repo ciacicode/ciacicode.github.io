@@ -27,18 +27,18 @@ I ran usability studies and interviews, to get an understanding of context, goal
 
 These were the top insights:
 
-**Price confusion**
-<br>Switching between 'Price per person' and 'Total price' was often not clear, and created some serious disappointments in users that felt cheated or tricked by the way the information on price was displayed.
+### Price confusion
+Switching between 'Price per person' and 'Total price' was often not clear, and created some serious disappointments in users that felt cheated or tricked by the way the information on price was displayed.
 
-**Direct flights vs Stops**
-<br>In some cases the users only found out very late that the flights they ended up selecting, included a layover stop that lasted several hours. This was due to the lack of UX/UI emphasis on such a key piece of information.
+### Direct flights vs Stops
+In some cases the users only found out very late that the flights they ended up selecting, included a layover stop that lasted several hours. This was due to the lack of UX/UI emphasis on such a key piece of information.
 
-**Passenger info Pain**
-<br>The most painful and time consuming task was the completion of passenger information. The apps that performed the best were those that made this step as simple as possible, with prefilled form fields and minimal inputs required.
+### Passenger info Pain
+The most painful and time consuming task was the completion of passenger information. The apps that performed the best were those that made this step as simple as possible, with prefilled form fields and minimal inputs required.
 
 ![](/images/works/flyux/img/research.jpg)
 
-**User Journey**
+### User Journey
 ![](/images/works/flyux/img/journey.png)
 
             
@@ -54,11 +54,11 @@ After designing the flow, I concentrated on the key interactions, such as passen
 
 I tested the prototype with a set of users and gained these key insights that led me to make some changes.
 
-**Navigation was unclear**
-<br>The user did not know how to go back to the previous screens. So I had to make the navigation controls more evident.
+### Navigation was unclear
+The user did not know how to go back to the previous screens. So I had to make the navigation controls more evident.
 
-**Over eager validation**
-<br>I was providing too much inline validation, meaning that the prototype was giving too much feedback, too early.
+### Over eager validation
+I was providing too much inline validation, meaning that the prototype was giving too much feedback, too early.
 
 ## Finalise
 

@@ -4,8 +4,7 @@
 
     
   <div class="intro">
-    <h1>{{ .Title | safeHTML }}</h1>
-    <h1>{{ .Description | safeHTML }}</h1>
+    <h1 class="mega">{{ .Title | safeHTML }} <br> {{.Description | safeHTML }} </h1> 
       <span class="typed-text"></span><span class="cursor">&nbsp;</span>
   </div>
   {{ partial "topglasses.html" . }}

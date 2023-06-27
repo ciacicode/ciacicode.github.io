@@ -29,12 +29,11 @@ In particular I wanted to help the choice of the next read by highlighting the b
 I took a component based approach for the design, which will help with the creation of future pages. 
 
 
-
 ## Validate
 
 I shared early versions of my designs to my friends, users of goodreads, and got their feedback.
 
-**Spacing**
-<br>The books on the right were not obviously connected to the users. The spacing and placement did not shout 'it's a row'. 
+### Spacing
+The books on the right were not obviously connected to the users. The spacing and placement did not shout 'it's a row'. 
 
 As a result I have tightened the sections to metter use the negative space between the side bar of global updates and the main section containing friends' trends. 

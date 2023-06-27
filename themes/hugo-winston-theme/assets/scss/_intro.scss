@@ -2,13 +2,13 @@
   margin-top: 10%;
   margin-bottom: 5%;
   max-width: 67%;
-  @include breakpoint ('small'){
-  margin-top: 64px;
-  margin-bottom: 32px;
+  @include breakpoint ('medium'){
+  margin-top: 32px;
+  max-width: 90%;
   }
   h1 {
     font-size: 90px;
-    line-height: 110px;
+    line-height: 122%;
     font-weight: 800;
     letter-spacing: -0.08em;
     overflow-wrap: normal;
@@ -19,10 +19,10 @@
     }
     @include breakpoint ('medium'){
       font-size: 64px;
-      line-height: 76px;
     }
     @include breakpoint ('small'){
       display: flex;
+      font-size: 38px;
     }
 
   }
@@ -55,6 +55,7 @@
   img {
     max-width: 100%;
     display: flex;
+    margin-top: 72px;
   }
   // img {
   //   margin-right: -30px;

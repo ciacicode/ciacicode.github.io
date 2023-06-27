@@ -9396,7 +9396,7 @@ textarea.form-control-lg {
 
 a {
   font-size: 22px;
-  line-height: 27px;
+  line-height: 122%;
   color: var(--highlight-color);
   letter-spacing: 0.08em;
   font-weight: 500;
@@ -9407,7 +9407,9 @@ h1, .h1 {
   color: var(--heading-color);
   font-family: var(--font-family-heading);
   font-weight: 700;
-  margin-top: 34px;
+  margin-top: 48px;
+  font-size: 38px;
+  line-height: 110%;
   display: block; }
 
 h2, .h2 {
@@ -9423,7 +9425,7 @@ h3, .h3 {
   line-height: 128%;
   font-weight: 500;
   letter-spacing: -0.02em;
-  margin-bottom: 16px;
+  margin-top: 40px;
   display: block; }
 
 p {
@@ -9431,11 +9433,10 @@ p {
   font-family: var(--font-family-paragraph);
   font-style: normal;
   font-size: 22px;
-  line-height: 123%;
+  line-height: 122%;
   font-weight: 200;
   letter-spacing: -0.04em;
-  margin-top: 0;
-  margin-bottom: 24px; }
+  margin-top: 24px; }
   p > a {
     margin-bottom: 0px; }
 
@@ -9455,7 +9456,7 @@ ul {
     font-style: normal;
     font-weight: 200;
     line-height: 124%;
-    margin: 0px 0px 24px 0px;
+    margin-top: 24px;
     padding: 0; }
   .content h1, .content .h1 {
     font-size: 90px;
@@ -9476,7 +9477,7 @@ ul {
         font-size: 30px;
         line-height: 1.4; } }
   .content h3, .content .h3 {
-    font-size: 28px;
+    font-size: 22px;
     line-height: 128%;
     font-weight: 500;
     letter-spacing: -0.02em; }
@@ -9574,13 +9575,10 @@ ul {
   gap: 8px; }
   @media (max-width: 768px) {
     .intro span.typed-text {
-      font-size: 64px;
-      line-height: 72px;
+      font-size: 32px;
+      line-height: 112%;
       border-radius: 8px;
       padding: 0px 8px 4px 8px; } }
-  @media (max-width: 768px) {
-    .intro span.typed-text {
-      margin-lefto: 0px; } }
 .intro span.cursor {
   display: inline-block;
   margin-left: 0.3rem;
@@ -9624,7 +9622,7 @@ ul {
   font-size: 16px;
   line-height: 112%;
   font-weight: 500;
-  margin: 0px 24px 24px 0px;
+  margin: 0px 16px 16px 0px;
   height: 26px;
   cursor: not-allowed;
   pointer-events: all !important; }
@@ -9632,25 +9630,23 @@ ul {
 .mega {
   font-size: 90px;
   line-height: 111%;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: -0.08em;
-  margin-top: 10%;
-  margin-bottom: 24px; }
+  margin-top: 10%; }
   @media (max-width: 768px) {
     .mega {
-      font-size: 40px;
-      margin-bottom: 16px; } }
+      font-size: 40px; } }
 .intro {
   margin-top: 10%;
   margin-bottom: 5%;
   max-width: 67%; }
-  @media (max-width: 393px) {
+  @media (max-width: 768px) {
     .intro {
-      margin-top: 64px;
-      margin-bottom: 32px; } }
+      margin-top: 32px;
+      max-width: 90%; } }
   .intro h1, .intro .h1 {
     font-size: 90px;
-    line-height: 110px;
+    line-height: 122%;
     font-weight: 800;
     letter-spacing: -0.08em;
     overflow-wrap: normal;
@@ -9660,11 +9656,11 @@ ul {
       color: var(--highlight-color); }
     @media (max-width: 768px) {
       .intro h1, .intro .h1 {
-        font-size: 64px;
-        line-height: 76px; } }
+        font-size: 64px; } }
     @media (max-width: 393px) {
       .intro h1, .intro .h1 {
-        display: flex; } }
+        display: flex;
+        font-size: 38px; } }
   .intro h2, .intro .h2 {
     font-size: 50px;
     line-height: 56px; }
@@ -9690,7 +9686,8 @@ ul {
         line-height: 32px; } }
   .intro img {
     max-width: 100%;
-    display: flex; }
+    display: flex;
+    margin-top: 72px; }
 
 .summary {
   font-size: 22x;
@@ -9734,12 +9731,20 @@ ul {
   @media (max-width: 768px) {
     .glasses {
       display: none; } }
+  .glasses img {
+    /* position: absolute; */
+    left: 0px; }
+    @media (max-width: 768px) {
+      .glasses img {
+        display: none; } }
 .glasses-large {
   max-width: 100%; }
   .glasses-large img {
     /* position: absolute; */
     left: 0px; }
-
+    @media (max-width: 768px) {
+      .glasses-large img {
+        display: none; } }
 .grips {
   position: relative;
   margin-top: -30%;
@@ -10288,6 +10293,10 @@ body {
       body.frame {
         border: 32px solid var(--frame-color);
         padding: 32px; } }
+    @media (max-width: 393px) {
+      body.frame {
+        border: none;
+        padding: 16px; } }
 .wrapper {
   max-width: 100%; }
 

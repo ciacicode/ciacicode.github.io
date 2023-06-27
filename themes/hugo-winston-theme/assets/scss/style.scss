@@ -57,6 +57,10 @@ body {
       border: 32px solid var(--frame-color);
       padding: 32px;
     }
+    @include breakpoint ('small'){
+      border: none;
+      padding: 16px;
+    }
   }
 }
 
