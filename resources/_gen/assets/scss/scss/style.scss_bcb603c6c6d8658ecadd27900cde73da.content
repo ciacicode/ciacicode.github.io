@@ -9491,8 +9491,9 @@ ul {
       list-style: decimal; }
   .content ul,
   .content ol {
-    margin-left: 0;
+    margin-left: 24px;
     margin-top: 10px;
+    font-weight: 200;
     margin-bottom: 20px; }
     .content ul li,
     .content ol li {
@@ -9763,7 +9764,6 @@ ul {
   flex-direction: column;
   flex: 1;
   align-items: center;
-  padding: 32px;
   gap: 32px;
   position: relative; }
   @media (max-width: 768px) {

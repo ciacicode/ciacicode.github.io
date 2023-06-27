@@ -16,6 +16,6 @@ These about sections are usually filled with a lot of stuff that you can already
 * I am mother to a trilingual toddler that loves tractors. 
 
 
-<form action="https://mariacerase.com/MariaCeraseResume.pdf">
+<form action="/MariaCeraseResume.pdf">
 <input type="submit" class="button" value="Download Resume"></input>
 </form>
