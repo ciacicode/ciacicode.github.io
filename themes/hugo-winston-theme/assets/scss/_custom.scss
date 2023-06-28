@@ -10,7 +10,6 @@
   display: none;
   }
   img {
-    /* position: absolute; */
     left: 0px;
     @include breakpoint ('medium'){
     display: none;
@@ -20,7 +19,6 @@
 .glasses-large {
   max-width:100%;
   img {
-    /* position: absolute; */
     left: 0px;
     @include breakpoint ('medium'){
     display: none;
@@ -35,6 +33,11 @@
   max-width: 55%;
   @include breakpoint ('medium'){
   display: none;
+  img {
+  display: none;
+  height: auto;
+  }
+
   }
 }
 
@@ -56,11 +59,13 @@ float:left;
 flex-direction: column;
 flex:1;
 align-items: center;
-gap: 32px;
+gap: 24px;
 position:relative;
+text-align: center;
 @include breakpoint ('medium'){
   min-width: 100%;
-  padding: 32px;
+  padding: 0px 64px 0px 64px;
+  text-align: left;
 }
 }
 
@@ -70,12 +75,15 @@ position:relative;
   margin-top: 40px;
   padding:0px;
   gap: 24px;
+  @include breakpoint ('medium'){
+  h3 {
+  text-align: left;
+  width: 100%;
+  }
+  }
 }
 
 
-.home{
-  margin-bottom: 48px;
-}
 
 .button {
   /* Auto layout */
@@ -127,9 +135,13 @@ box-shadow: 0 4px 0 #2708A0;
   margin: 24px 24px 24px 0px;
   max-width: 63%;
   object-fit: cover; 
+  @include breakpoint ('small'){
+  max-width: 100%;
+  }
   }
   @include breakpoint ('mlarge'){
   display: inline-block;
+
   }
 }
 

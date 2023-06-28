@@ -4,7 +4,7 @@
 
     
   <div class="intro">
-    <h1 class="mega">{{ .Title | safeHTML }} <br> {{.Description | safeHTML }} </h1> 
+    <h1 id="mega">{{ .Title | safeHTML }} <br> {{.Description | safeHTML }} </h1> 
       <span class="typed-text"></span><span class="cursor">&nbsp;</span>
   </div>
   {{ partial "topglasses.html" . }}
@@ -39,12 +39,13 @@
 
 <section >
   <div class="summary">
-    <h3>{{ .Site.Data.home.process.name}}</h3>
+    
     <div class="process-details">
+      <h3>{{ .Site.Data.home.process.name}}</h3>
       {{ if .Site.Data.home.process.sections }}
     
       {{ range .Site.Data.home.process.sections }}
-    <div class=" pcard">
+    <div class="pcard">
           <h4> {{ .name }} </h4>
           <img width="24px" src="{{ .icon | relURL }}" alt="" />
           <p>{{ .description}}</p>

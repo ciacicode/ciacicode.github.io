@@ -217,10 +217,12 @@ ul {
   padding: 0px 8px 4px 8px;
   gap: 8px;
   @include breakpoint ('medium') {
-      font-size: 32px;
+      font-size: 64px;
       line-height: 112%;
       border-radius: 8px;
       padding: 0px 8px 4px 8px;
+      margin-top: 24px;
+      margin-left: 0px;
     }
 }
 
@@ -244,11 +246,18 @@ ul {
 .third{
   max-width: 33%;
   padding: 0px;
+  @include breakpoint ('medium'){
+  max-width: 100%;
+  padding: 0px 8px 0px 8px;
+  }
 }
 
 .twothirds{
   width: 66%;
   max-width: 643px;
+  @include breakpoint ('medium'){
+  max-width: 100%;
+  }
 }
 
 .tag{
@@ -271,14 +280,14 @@ ul {
   pointer-events: all !important;
 
 }
-.mega{
+#mega{
   font-size: 90px;
   line-height: 111%;
   font-weight: 800;
   letter-spacing: -0.08em;
   margin-top: 10%;
   @include breakpoint ('medium'){
-  font-size: 40px;
+  font-size: 64px;
   }
 }
 

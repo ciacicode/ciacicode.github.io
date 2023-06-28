@@ -9575,10 +9575,12 @@ ul {
   gap: 8px; }
   @media (max-width: 768px) {
     .intro span.typed-text {
-      font-size: 32px;
+      font-size: 64px;
       line-height: 112%;
       border-radius: 8px;
-      padding: 0px 8px 4px 8px; } }
+      padding: 0px 8px 4px 8px;
+      margin-top: 24px;
+      margin-left: 0px; } }
 .intro span.cursor {
   display: inline-block;
   margin-left: 0.3rem;
@@ -9603,11 +9605,16 @@ ul {
 .third {
   max-width: 33%;
   padding: 0px; }
-
+  @media (max-width: 768px) {
+    .third {
+      max-width: 100%;
+      padding: 0px 8px 0px 8px; } }
 .twothirds {
   width: 66%;
   max-width: 643px; }
-
+  @media (max-width: 768px) {
+    .twothirds {
+      max-width: 100%; } }
 .tag {
   flex-direction: row;
   flex-wrap: wrap;
@@ -9627,15 +9634,15 @@ ul {
   cursor: not-allowed;
   pointer-events: all !important; }
 
-.mega {
+#mega {
   font-size: 90px;
   line-height: 111%;
   font-weight: 800;
   letter-spacing: -0.08em;
   margin-top: 10%; }
   @media (max-width: 768px) {
-    .mega {
-      font-size: 40px; } }
+    #mega {
+      font-size: 64px; } }
 .intro {
   margin-top: 10%;
   margin-bottom: 5%;
@@ -9691,8 +9698,7 @@ ul {
 
 .summary {
   font-size: 22x;
-  line-height: 123%;
-  margin: 0px 0px 64px 0px; }
+  line-height: 123%; }
   @media (max-width: 393px) {
     .summary {
       margin-bottom: 32px;
@@ -9732,7 +9738,6 @@ ul {
     .glasses {
       display: none; } }
   .glasses img {
-    /* position: absolute; */
     left: 0px; }
     @media (max-width: 768px) {
       .glasses img {
@@ -9740,7 +9745,6 @@ ul {
 .glasses-large {
   max-width: 100%; }
   .glasses-large img {
-    /* position: absolute; */
     left: 0px; }
     @media (max-width: 768px) {
       .glasses-large img {
@@ -9752,7 +9756,10 @@ ul {
   max-width: 55%; }
   @media (max-width: 768px) {
     .grips {
-      display: none; } }
+      display: none; }
+      .grips img {
+        display: none;
+        height: auto; } }
 .twothirds {
   max-width: 66%;
   display: inline; }
@@ -9769,22 +9776,24 @@ ul {
   flex-direction: column;
   flex: 1;
   align-items: center;
-  gap: 32px;
-  position: relative; }
+  gap: 24px;
+  position: relative;
+  text-align: center; }
   @media (max-width: 768px) {
     .pcard {
       min-width: 100%;
-      padding: 32px; } }
+      padding: 0px 64px 0px 64px;
+      text-align: left; } }
 .process-details {
   display: flex;
   flex-wrap: wrap;
   margin-top: 40px;
   padding: 0px;
   gap: 24px; }
-
-.home {
-  margin-bottom: 48px; }
-
+  @media (max-width: 768px) {
+    .process-details h3, .process-details .h3 {
+      text-align: left;
+      width: 100%; } }
 .button {
   /* Auto layout */
   display: flex;
@@ -9828,6 +9837,9 @@ ul {
     margin: 24px 24px 24px 0px;
     max-width: 63%;
     object-fit: cover; }
+    @media (max-width: 393px) {
+      .cover > img {
+        max-width: 100%; } }
   @media (max-width: 1024px) {
     .cover {
       display: inline-block; } }
@@ -9880,6 +9892,10 @@ ul.pagination {
       display: block;
       color: var(--highlight-color);
       text-decoration: none; }
+      @media (max-width: 393px) {
+        ul.pagination li a {
+          margin: 4px;
+          padding: 2px 4px 0px 8px; } }
     ul.pagination li:last-of-type {
       border-right: 2px solid var(--highlight-color);
       border-top-right-radius: 3px;

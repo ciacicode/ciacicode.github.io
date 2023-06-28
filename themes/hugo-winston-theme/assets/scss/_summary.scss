@@ -1,7 +1,6 @@
 .summary {
   font-size: 22x;
   line-height: 123%;
-  margin:0px 0px 64px 0px;
   @include breakpoint('small') {
     margin-bottom: 32px;
     font-size: 18px;

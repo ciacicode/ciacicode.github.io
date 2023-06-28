@@ -32,6 +32,10 @@ ul.pagination {
       display: block;
       color: var(--highlight-color);
       text-decoration: none;
+      @include breakpoint ('small'){
+      margin: 4px;
+      padding: 2px 4px 0px 8px;
+      }
     }
     &:last-of-type {
       border-right: 2px solid var(--highlight-color);
