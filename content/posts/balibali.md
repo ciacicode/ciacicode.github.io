@@ -2,12 +2,11 @@
 title: "balì balì"
 description: "Idea for a new luxury fashion brand"
 featured: false
-tags: ["Branding", "typography", "Luxury"]
+tags: ["Branding", "typography", "Luxury", "2021"]
 context: "I wanted to showcase how I can ideate and execute a brand and its guidelines, so I embarked on a journey of type and colour exploration."
 image: images/balibalithumbnail.webp
-date: 2022-02-13T22:29:08-07:00
+date: 2021-02-13T22:29:08-07:00
 draft: false
-year: 2021
 ---
 
 ## The Challenge

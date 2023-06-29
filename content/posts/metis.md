@@ -1,6 +1,6 @@
 ---
 title: "Metis App"
-tags: ["Business", "Usability", "Web"]
+tags: ["Business", "Usability", "Web", "2020"]
 description: "Web application concept to facilitate the gathering of requirements by solutions engineers interviewing clients."
 context: "Solution Engineers work with clients to create bespoke apps and dashboards. One of their main jobs, is to gather client requirements efficiently and effectively, so that the solution built is as good as possible."
 testimonial: "These designs are excellent. You interpreted our requirements exactly as we'd described them e.g. the drag and drop functionality for individual questions, and added in some additional functionality which is incredibly helpful e.g. the keyword search bar during the interview section. This design would certainly lead to an intuitive, flexible tool which would react quickly to a live interview situation."
@@ -8,9 +8,8 @@ image: images/metisthumbnail.webp
 testimonial_image: images/works/metis/img/debbi.jpeg
 testimonial_name: "Debbi Rosenthal - Head of Solutions UK, MiQ"
 featured: false
-date: 2020-11-15T03:29:08-07:00
+date: 2021-11-15T03:29:08-07:00
 draft: true
-year: 2020
 ---
 
 ## The Challenge

@@ -9568,7 +9568,7 @@ ul {
   border-radius: 16px;
   display: inline;
   background: var(--frame-color);
-  margin-left: 12px;
+  margin-left: 8px;
   margin-top: 8px;
   align-items: center;
   padding: 0px 8px 4px 8px;
@@ -9636,7 +9636,7 @@ ul {
 
 #mega {
   font-size: 90px;
-  line-height: 128%;
+  line-height: 110%;
   font-weight: 800;
   letter-spacing: -0.08em;
   margin-top: 10%; }
@@ -9867,7 +9867,7 @@ ul.pagination {
   display: flex;
   justify-content: center;
   list-style: none;
-  margin: 20px 0 20px 0;
+  margin: 128px 0 20px 0;
   padding: 0; }
   ul.pagination li {
     list-style: none;

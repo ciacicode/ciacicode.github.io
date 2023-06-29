@@ -1,16 +1,15 @@
 ---
 title: "Fly UX"
 image: images/flythumbnail.webp
-tags: ["Mobile", "Usability", "Diploma"]
+tags: ["Mobile", "Usability", "Diploma", "2021"]
 description: "Mobile application concept for a fictional airline. A project for a diploma."
 context: "As part of my UX Diploma, I had to work on a project from start to finish, to create a Mobile App for a fictional Airline called Fly UX. "
 testimonial: "'Sketching is all about communication and I think you've done that really well. Really nice and clear. Your field labels are good and flow feels logical. I think this is a great foundation to your prototype. '"
 testimonial_image: images/works/flyux/img/aoife.jpeg
 testimonial_name: "Ahoife Shanahan - UX Institute"
 featured: false
-date: 2021-05-14T03:29:08-07:00
+date: 2021-08-14T03:29:08-07:00
 draft: false
-year: 2020
 ---
 
 ## The Challenge
@@ -19,9 +18,6 @@ year: 2020
 Airline apps are quite complex applications. Users' goodwill can easily diminish, as there are some very intensive tasks, where the user is expected to provide loads of data, in a very short amount of time. All this, with limited screen space and guidance. I had created sign-up and cancellation flows before, as a PM, but in this case, I was alone in creating all flows.
 
 ## Research and Analysis
-
-
-
 
 I ran usability studies and interviews, to get an understanding of context, goals and behaviours of flyers. With that information I designed user journey map and affinity diagram. From the start, price and time emerged as the most important factors of decision making. 
 
@@ -69,8 +65,8 @@ All the feedback went into the final prototype where I tried to simplify the flo
 
 ![High Fidelity](/images/works/flyux/img/search.png)
 
+
+
 <form action="https://drive.google.com/drive/folders/1kFKfzkZwASHpwUHZLfNDmEM2CgD90fCj">
 <input type="submit" class="button" value="Download Artefacts"></input>
 </form>
-
-

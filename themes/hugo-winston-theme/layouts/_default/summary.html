@@ -6,9 +6,6 @@
         <img class="summary-image" src="{{ .Params.image | relURL }}" />
         <div class="summary-description">
           <p >{{ .Params.description }}</p>
-              {{ if .Params.year}}
-       <p> Year: {{ .Params.year }}</p>
-       {{end}}
           
            {{ if .Params.tags }}
     

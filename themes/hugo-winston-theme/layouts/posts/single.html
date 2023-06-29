@@ -18,10 +18,13 @@
       <div>
       <div class="context">
         <h2> Context </h2>
-            {{ if .Params.year}}
-       <p> Year: {{ .Params.year }}</p>
-       {{end}}
         <p> {{ .Params.context}} </p>
+      {{end}}
+
+      {{ if .Params.cta}}
+      <form action="{{ .Params.cta.action | safeHTML }}">
+      <input type="submit" class="button" value="{{ .Params.cta.value }}"></input>
+      </form>
       {{end}}
        </div>
        {{ if .Params.testimonial}}

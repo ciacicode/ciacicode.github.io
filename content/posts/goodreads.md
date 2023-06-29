@@ -1,13 +1,12 @@
 ---
 title: "Goodreads"
-tags: ["Web", "Visual"]
+tags: ["Web", "Visual", "2021"]
 description: "Redesign of Goodreads web app to prioritise social book discovery"
 context: "Goodreads is a social network for book lovers. You can manage your list of books to read, follow your friends reviews etc."
 image: images/goodreads.webp
 featured: false
-date: 2021-12-20T03:29:08-07:00
+date: 2021-07-20T03:29:08-07:00
 draft: false
-year: 2021
 ---
 
 ## The Challenge

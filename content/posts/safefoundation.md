@@ -1,6 +1,6 @@
 ---
 title: "Safe Foundation"
-tags: ["Branding", "Charity", "Dev"]
+tags: ["Branding", "Charity", "Dev", "2022"]
 description: "Full rebranding and website development for a South London charity."
 context: "The SAFE Foundation is a charity operating in South London, using the power of football to each young children to live healthily. It organises several sport programmes for different ages, focusing on good sport ethics."
 testimonial: "Maria helped us build our website and she was amazing to work with. She was able to clearly elicit our requirements, set some clear expectations with us and was really patient in guiding us through the project. Her ability to simplify complex information was amazing and her ability to use fantastic visual tools to walk us through the process was really good in helping us execute the project and go live successfully. I'd recommend Maria to anyone who wishes to work with a really knowledgeable and experienced web developer"
@@ -8,9 +8,8 @@ image: /images/safefoundation.webp
 testimonial_image: images/works/safefoundation/img/john.webp
 testimonial_name: "John Titilawo - CEO, Executive Director, SAFE Foundation"
 featured: false
-date: 2021-08-08T22:29:08-07:00
+date: 2022-04-08T22:29:08-07:00
 draft: false
-year: 2022
 ---
 
 ## The Challenge

@@ -1,10 +1,13 @@
 ---
 title: Crisp UI
-date: 2018-06-07
+date: 2023-04-07
 featured: true
-tags: ["Strong Affordances", "Atomic", "Nested Components", "Figma"]
+tags: ["Strong Affordances", "Atomic", "Nested Components", "Figma", "2023"]
 description: "Crisp UI is a minimalist UI Kit available for free in Figma. It’s an atomic design system using geometric, modern typography, combined with impactful components and style choices."
 context: "Figma is full of UI kits, but not all of them can be called design systems. I wanted to make a more comprehensive system with clear differentiating factors such as affordances and accessibility."
+cta:
+    action: "https://www.figma.com/community/file/1206372675126377033"
+    value: "Check in Figma"
 image: images/crispcover.webp
 year: 2023
 ---
@@ -21,8 +24,3 @@ Crisp UI is a small design system built for impact and with a highly tokenised, 
 ![](/images/works/crispui/Styles.webp)
 
 Typography is geometric, following a large typographic scale. Colours are bold to offer good contrast, and also neutrals provide enough variety for any creative project.
-
-
-<form action="https://www.figma.com/community/file/1206372675126377033">
-<input type="submit" class="button" value="Check in Figma"></input>
-</form>

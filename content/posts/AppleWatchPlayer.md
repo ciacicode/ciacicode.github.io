@@ -5,9 +5,8 @@ featured: false
 tags: ["Apple Watch", "Fluo", "Wearable"]
 context: "Listening to music is a very personal, portable experience. This is a concept app that plays on retro feelings and geometries."
 image: images/works/applewatch/applewatch.webp
-date: 2022-02-13T22:29:08-07:00
+date: 2022-11-13T22:29:08-07:00
 draft: false
-year: 2022
 ---
 
 ## The Challenge

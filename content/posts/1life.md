@@ -1,13 +1,12 @@
 ---
 title: "1 life"
-date: 2018-06-07
+date: 2022-06-07
 featured: false
-tags: ["Bootstrap", "Usability", "Web"]
+tags: ["Bootstrap", "Usability", "Web", "2022"]
 description: "Crisp UI is a minimalist UI Kit available for free in Figma. It’s an atomic design system using geometric, modern typography, combined with impactful components and style choices."
 context: "I am a recent client of this gym company. At first I was trying to use the web experience to book my swim, but I was finding it very frustrating: I couldn't directly book a slot from the homepage. I thought I could design something more useable, without having to revolutionise the interface."
 image: images/1lifethumbnail.webp
 draft: false
-year: 2022
 ---
 
 ## The Challenge
