@@ -65,7 +65,7 @@ position:relative;
 text-align: center;
 @include breakpoint ('medium'){
   min-width: 100%;
-  padding: 0px 64px 0px 64px;
+  padding: 0px;
   text-align: left;
 }
 }
@@ -125,8 +125,11 @@ box-shadow: 0 4px 0 #2708A0;
 
 .blogtext{
   max-width: 63%;
-  @include breakpoint ('medium'){
+  @include breakpoint ('small'){
   max-width: 100%;
+  }
+  @include breakpoint ('mlarge'){
+  max-width: 80%;
   }
 }
 
@@ -134,14 +137,15 @@ box-shadow: 0 4px 0 #2708A0;
   display:flex;
   > img {
   margin: 24px 24px 24px 0px;
-  max-width: 63%;
+  width: 100%;
   object-fit: cover; 
   @include breakpoint ('small'){
-  max-width: 100%;
+  width: 100%;
   }
   }
   @include breakpoint ('mlarge'){
   display: inline-block;
+  max-width: 80%;
 
   }
 }

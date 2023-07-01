@@ -42,7 +42,6 @@ html, body {
 
 body {
   max-width: 100%;
-  min-width: 393px;
   background: var(--base-color);
   color: var(--text-color);
   margin: 0;
@@ -71,14 +70,24 @@ body {
 .scale{
   margin-top: 25%;
   margin-bottom: 20%;
+  @include breakpoint ('mlarge'){
+    margin-top: 20%;
+    margin-bottom: 10%;
+  }
+  @include breakpoint ('medium'){
+    margin-top: 5%;
+    margin-bottom: 0px;
+  }
 }
 
 .scale > div {
   display: flex;
   flex-wrap: wrap;
+  margin:0px
 }
 
 .scale > div > div {
+
   @include breakpoint ('medium'){
   display: inline-block;
   min-width: 100%;

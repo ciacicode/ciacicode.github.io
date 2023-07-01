@@ -2,7 +2,6 @@
   font-size: 22x;
   line-height: 123%;
   @include breakpoint('small') {
-    margin-bottom: 32px;
     font-size: 18px;
     line-height: 113%;
   }
@@ -26,10 +25,10 @@
   }
   .summary-image{
   display:inline;
-   max-width: 66%;
+   width: 66%;
+   min-width: 66%;
    height: auto;
    @include breakpoint ('medium'){
-   margin-bottom: 24px;
    max-width: 100%;
    }
   }
