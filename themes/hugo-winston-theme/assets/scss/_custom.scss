@@ -113,10 +113,11 @@ box-shadow: 0 4px 0 #2708A0;
 .button:active {
   box-shadow: none;
   background: #A8044B;
+  transform: translateY(8px);
 }
 
 .button::before{
-    bottom: -4px;
+    bottom: -2px;
     content: "";
     display: block;
     left: -2px;
