@@ -9852,7 +9852,7 @@ ul {
   display: flex; }
   .cover > img {
     margin: 24px 24px 24px 0px;
-    width: 100%;
+    width: 63%;
     object-fit: cover; }
     @media (max-width: 393px) {
       .cover > img {
