@@ -20,7 +20,6 @@ path="github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
 
 [params]
   google_analytics_id = "G-7PE55B06FD"
-  twitter_handle = "@zerostaticio"
   showAuthorOnHomepage = false
   showAuthorOnPosts = true
   showPostsOnHomepage = false

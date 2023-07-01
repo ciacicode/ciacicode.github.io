@@ -24,3 +24,5 @@ Crisp UI is a small design system built for impact and with a highly tokenised, 
 ![](/images/works/crispui/Styles.webp)
 
 Typography is geometric, following a large typographic scale. Colours are bold to offer good contrast, and also neutrals provide enough variety for any creative project.
+
+[See other works](/posts)

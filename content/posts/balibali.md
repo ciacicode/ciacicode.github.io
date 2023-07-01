@@ -1,9 +1,12 @@
 ---
 title: "balì balì"
-description: "Idea for a new luxury fashion brand"
+description: "Luxury brand concept with mediterrenean, smooth vibes. Full brand guidelines included. "
 featured: false
 tags: ["Branding", "typography", "Luxury", "2021"]
 context: "I wanted to showcase how I can ideate and execute a brand and its guidelines, so I embarked on a journey of type and colour exploration."
+cta:
+    action: "https://dribbble.com/ciacicode"
+    value: "Check on Dribbble"
 image: images/balibalithumbnail.webp
 date: 2021-02-13T22:29:08-07:00
 draft: false
@@ -29,5 +32,7 @@ Finally I put it all together in a simple set of brand guidelines that instruct 
 Click on the upper side bar to download pdf guidelines.
 
 ![](/images/works/balibali/LuxuryBrandBaliBali.webp)
+
+[See other works](/posts)
 
 

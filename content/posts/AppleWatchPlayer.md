@@ -1,9 +1,12 @@
 ---
 title: "Music Player"
-description: "Music Player Concept for Apple Watch"
+description: "Retro and Fluo music player concept app for Apple Watch."
 featured: false
 tags: ["Apple Watch", "Fluo", "Wearable"]
 context: "Listening to music is a very personal, portable experience. This is a concept app that plays on retro feelings and geometries."
+cta:
+    action: "https://dribbble.com/ciacicode"
+    value: "Check on Dribbble"
 image: images/works/applewatch/applewatch.webp
 date: 2022-11-13T22:29:08-07:00
 draft: false
@@ -34,5 +37,7 @@ The typographical choice has been simple. Apple guidelines recommend the use of 
 Finally I moved on to the finalisation of a quick prototype in Figma, where gestures would be mimiced by dragging operations with some bounce effect, to keep that playfulness in the concept.
 
 ![](/images/works/applewatch/PlayerMotion.gif)
+
+[See other works](/posts)
 
 

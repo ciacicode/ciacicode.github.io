@@ -1,9 +1,12 @@
 ---
 title: "Goodreads"
 tags: ["Web", "Visual", "2021"]
-description: "Redesign of Goodreads web app to prioritise social book discovery"
+description: "Redesign of the Goodreads web app to prioritise social book discovery. Redesigned using novel components and respecting brand guidelines."
 context: "Goodreads is a social network for book lovers. You can manage your list of books to read, follow your friends reviews etc."
 image: images/goodreads.webp
+cta:
+    action: "https://dribbble.com/ciacicode"
+    value: "Check on Dribble"
 featured: false
 date: 2021-07-20T03:29:08-07:00
 draft: false
@@ -36,3 +39,5 @@ I shared early versions of my designs to my friends, users of goodreads, and got
 The books on the right were not obviously connected to the users. The spacing and placement did not shout 'it's a row'. 
 
 As a result I have tightened the sections to metter use the negative space between the side bar of global updates and the main section containing friends' trends. 
+
+[See other works](/posts)

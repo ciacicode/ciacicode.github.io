@@ -9417,10 +9417,9 @@ h2, .h2 {
   font-family: var(--font-family-heading);
   display: block;
   font-size: 28px;
+  margin-top: 40px;
   line-height: 138%;
   font-weight: bold; }
-  h2:first-of-type, .h2:first-of-type {
-    margin-top: 40px; }
   @media (max-width: 393px) {
     h2, .h2 {
       font-size: 30px;
@@ -9433,7 +9432,7 @@ h3, .h3 {
   line-height: 138%;
   font-weight: 500;
   letter-spacing: -0.02em;
-  margin-top: 40px;
+  margin-top: 16px;
   display: block; }
 
 p {
@@ -9444,7 +9443,8 @@ p {
   line-height: 138%;
   font-weight: 200;
   letter-spacing: -0.04em;
-  margin-top: 24px; }
+  margin-top: 24px;
+  margin-bottom: 0px; }
   p > a {
     margin-bottom: 0px; }
 
@@ -9458,14 +9458,16 @@ ul {
     list-style: none; }
 
 .content {
-  font-size: 22px; }
+  font-size: 22px;
+  max-width: 66%; }
   .content p {
     font-size: 22px;
     font-style: normal;
     font-weight: 200;
     line-height: 138%;
     margin-top: 24px;
-    padding: 0; }
+    padding: 0;
+    margin-bottom: 0px; }
   .content h1, .content .h1 {
     font-size: 90px;
     line-height: 138%;
@@ -9820,6 +9822,7 @@ ul {
   border-radius: 4px;
   font-size: 22px;
   color: white;
+  margin-top: 24px;
   border-bottom: 4px solid black;
   border: none;
   box-shadow: 0 4px 0 #2708A0; }
@@ -9840,19 +9843,11 @@ ul {
   position: absolute;
   right: -2px; }
 
-.blogtext {
-  max-width: 63%; }
-  @media (max-width: 393px) {
-    .blogtext {
-      max-width: 100%; } }
-  @media (max-width: 1024px) {
-    .blogtext {
-      max-width: 80%; } }
 .cover {
   display: flex; }
   .cover > img {
     margin: 24px 24px 24px 0px;
-    width: 63%;
+    width: 66%;
     object-fit: cover; }
     @media (max-width: 393px) {
       .cover > img {
@@ -9864,12 +9859,14 @@ ul {
 .testimonial {
   /* Auto layout */
   display: block;
-  gap: 16px;
+  gap: 4px;
+  background: #FBF4F7;
+  padding: 24px;
+  border-radius: 8px;
   text-align: left;
-  margin-top: 40px;
+  margin-top: 24px;
   height: auto; }
   .testimonial > img {
-    margin-bottom: 16px;
     border-radius: 4px; }
   .testimonial > h3, .testimonial > .h3 {
     color: #6D757E;

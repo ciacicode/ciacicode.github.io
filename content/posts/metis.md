@@ -52,3 +52,5 @@ Some Solutions Engineers feel confident scoring answers as they go, while others
 
 After those iterations, I produces a mid fidelity prototype in Axure that was then used as the basis of high fidelity UI designs.
 ![](/images/works/metis/img/axure1.png)
+
+[See other works](/posts)

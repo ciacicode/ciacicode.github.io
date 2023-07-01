@@ -20,6 +20,9 @@
         <h2> Context </h2>
         <p> {{ .Params.context}} </p>
       {{end}}
+      {{ if .Params.testimonial}}
+        {{ partial "testimonial.html" . }}
+       {{ end }}
 
       {{ if .Params.cta}}
       <form action="{{ .Params.cta.action | safeHTML }}">
@@ -27,14 +30,12 @@
       </form>
       {{end}}
        </div>
-       {{ if .Params.testimonial}}
-        {{ partial "testimonial.html" . }}
-       {{ end }}
+
      </div>
 
     </div>
 
-    <div class="content blogtext">
+    <div class="content">
       {{ .Content }}
     </div>
 

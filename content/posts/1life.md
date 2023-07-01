@@ -3,7 +3,7 @@ title: "1 life"
 date: 2022-06-07
 featured: false
 tags: ["Bootstrap", "Usability", "Web", "2022"]
-description: "Crisp UI is a minimalist UI Kit available for free in Figma. It’s an atomic design system using geometric, modern typography, combined with impactful components and style choices."
+description: "Redesign of a gym web app aimed at increasing accessibility and ease of use. Redesigned using Bootstrap and respecting all brand guidelines."
 context: "I am a recent client of this gym company. At first I was trying to use the web experience to book my swim, but I was finding it very frustrating: I couldn't directly book a slot from the homepage. I thought I could design something more useable, without having to revolutionise the interface."
 image: images/1lifethumbnail.webp
 draft: false
@@ -31,6 +31,8 @@ In this very simple wireframe, the information hierarchy has been deepened. Ther
 ![](/images/works/1life/booking.webp)
 
 This is the final page. Simple, clean, functional. The brand colours are translated in the call to actions, without making them overwhelming but and still meaningful. A subtle nod to the brand is also visible in a gradient line underneath the navigation. Search bars are removed to make the experience simpler. Let me know what you think.
+
+[See other works](/posts)
 
 
 

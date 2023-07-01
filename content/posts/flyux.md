@@ -2,9 +2,12 @@
 title: "Fly UX"
 image: images/flythumbnail.webp
 tags: ["Mobile", "Usability", "Diploma", "2021"]
-description: "Mobile application concept for a fictional airline. A project for a diploma."
+description: "Mobile application concept for a fictional airline. Full case study in the research, process and output of this diploma project."
 context: "As part of my UX Diploma, I had to work on a project from start to finish, to create a Mobile App for a fictional Airline called Fly UX. "
-testimonial: "'Sketching is all about communication and I think you've done that really well. Really nice and clear. Your field labels are good and flow feels logical. I think this is a great foundation to your prototype. '"
+testimonial: "'Sketching is all about communication and I think you've done that really well. Really nice and clear. Your field labels are good and flow feels logical. I think this is a great foundation to your prototype.'"
+cta:
+    action: "https://drive.google.com/drive/folders/1kFKfzkZwASHpwUHZLfNDmEM2CgD90fC"
+    value: "Download artefacts"
 testimonial_image: images/works/flyux/img/aoife.jpeg
 testimonial_name: "Ahoife Shanahan - UX Institute"
 featured: false
@@ -65,8 +68,4 @@ All the feedback went into the final prototype where I tried to simplify the flo
 
 ![High Fidelity](/images/works/flyux/img/search.png)
 
-
-
-<form action="https://drive.google.com/drive/folders/1kFKfzkZwASHpwUHZLfNDmEM2CgD90fCj">
-<input type="submit" class="button" value="Download Artefacts"></input>
-</form>
+[See other works](/posts)
