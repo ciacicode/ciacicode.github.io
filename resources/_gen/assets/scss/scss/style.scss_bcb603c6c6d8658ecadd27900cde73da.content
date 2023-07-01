@@ -9432,7 +9432,7 @@ h3, .h3 {
   line-height: 138%;
   font-weight: 500;
   letter-spacing: -0.02em;
-  margin-top: 16px;
+  margin-top: 40px;
   display: block; }
 
 p {
@@ -9443,10 +9443,11 @@ p {
   line-height: 138%;
   font-weight: 200;
   letter-spacing: -0.04em;
-  margin-top: 24px;
-  margin-bottom: 0px; }
+  margin-top: 24px; }
   p > a {
-    margin-bottom: 0px; }
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-right: 0px; }
 
 ol,
 ul {
@@ -9490,6 +9491,7 @@ ul {
     font-size: 22px;
     line-height: 138%;
     font-weight: 500;
+    margin-top: 16px;
     letter-spacing: -0.02em; }
   .content ul {
     list-style: disc; }
@@ -9870,7 +9872,8 @@ ul {
     border-radius: 4px; }
   .testimonial > h3, .testimonial > .h3 {
     color: #6D757E;
-    font-size: 22px; }
+    font-size: 22px;
+    margin-top: 16px; }
   .testimonial > p {
     font-family: "Quattrocento", "serif";
     font-size: 22px;

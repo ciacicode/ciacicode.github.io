@@ -40,7 +40,7 @@ h3 {
   line-height: 138%;
   font-weight: 500;
   letter-spacing: -0.02em;
-  margin-top: 16px;
+  margin-top: 40px;
   display: block;
 
 
@@ -54,9 +54,10 @@ p {
   font-weight: 200;
   letter-spacing: -0.04em;
   margin-top:24px;
-  margin-bottom: 0px;
   > a {
   margin-bottom: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
   }
 }
 
@@ -109,6 +110,7 @@ ul {
     font-size: 22px;
     line-height: 138%;
     font-weight: 500;
+    margin-top: 16px;
     letter-spacing: -0.02em;
   }
   ul {
